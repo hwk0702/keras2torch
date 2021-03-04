@@ -28,7 +28,7 @@ Original github address: https://github.com/keras-team/keras-io
 
 |task|발표자|발표일|강형원|김정섭|최정우|허재혁|
 |---|---|---|---|---|---|---|
-|Image classification from scratch| 미정 | 미정 | <ul><li>[x] </li> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
+|Image classification from scratch| 미정 | 미정 | <ul><li>[ ] </li> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
 |Simple MNIST convnet| 미정 | 미정 | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
 |Image segmentation with a U-Net-like architecture| 미정 | 미정 | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
 |3D Image Classification from CT Scans| 미정 | 미정 | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
