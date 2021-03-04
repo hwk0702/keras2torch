@@ -26,28 +26,28 @@ Original github address: https://github.com/keras-team/keras-io
 
 ### Computer Vision
 
-|<h6>task</h6>|발표자|발표일|강형원|김정섭|최정우|허재혁|
+|<h5>task</h5></h5>|<h5>발표자</h5>|<h5>발표일</h5>|<h5>강형원</h5>|<h5>김정섭</h5>|<h5>최정우</h5>|<h5>허재혁</h5>|
 |---|---|---|---|---|---|---|
-|Image classification from scratch| 미정 | 미정 | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
-|Simple MNIST convnet| 미정 | 미정 | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
-|Image segmentation with a U-Net-like architecture| 미정 | 미정 | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
-|3D Image Classification from CT Scans| 미정 | 미정 | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
-|OCR model for reading Captchas| 미정 | 미정 | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
-|Next-frame prediction with Conv-LSTM| 미정 | 미정 | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
-|Grad-CAM class activation visualization| 미정 | 미정 | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
-|Image classification via fine-tuning with EfficientNet| 미정 | 미정 | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
-|Image Classification with Vision Transformer| 미정 | 미정 | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
-|Model interpretability with Integrated Gradients| 미정 | 미정 | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
-|Knowledge Distillation| 미정 | 미정 | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
-|Metric learning for image similarity search| 미정 | 미정 | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
-|Point cloud classification with PointNet| 미정 | 미정 | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
-|Few-Shot learning with Reptile| 미정 | 미정 | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
-|Object Detection with RetinaNet| 미정 | 미정 | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
-|Semantic Image Clustering| 미정 | 미정 | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
-|Image Super-Resolution using an Efficient Sub-Pixel CNN| 미정 | 미정 | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
-|Supervised Contrastive Learning| 미정 | 미정 | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
-|Visualizing what convnets learn| 미정 | 미정 | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
-|Pneumonia Classification on TPU| 미정 | 미정 | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
+|<h5>Image classification from scratch</h5>|<h5> 미정 </h5>|<h5> 미정 </h5>| <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
+|<h5>Simple MNIST convnet</h5>|<h5> 미정 </h5>|<h5> 미정 </h5>| <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
+|<h5>Image segmentation with a U-Net-like architecture</h5>|<h5> 미정 </h5>|<h5> 미정 </h5>| <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
+|<h5>3D Image Classification from CT Scans</h5>|<h5> 미정 </h5>|<h5> 미정 </h5>| <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
+|<h5>OCR model for reading Captchas</h5>|<h5> 미정 </h5>|<h5> 미정 </h5>| <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
+|<h5>Next-frame prediction with Conv-LSTM</h5>|<h5> 미정 </h5>|<h5> 미정 </h5>| <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
+|<h5>Grad-CAM class activation visualization</h5>|<h5> 미정 </h5>|<h5> 미정 </h5>| <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
+|<h5>Image classification via fine-tuning with EfficientNet</h5>|<h5> 미정 </h5>|<h5> 미정 | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
+|<h5>Image Classification with Vision Transformer</h5>|<h5> 미정 </h5>|<h5> 미정 </h5>| <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
+|<h5>Model interpretability with Integrated Gradients</h5>|<h5> 미정 </h5>|<h5> 미정 </h5>| <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
+|<h5>Knowledge Distillation</h5>|<h5> 미정 </h5>|<h5> 미정 </h5>| <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
+|<h5>Metric learning for image similarity search</h5>|<h5> 미정 </h5>|<h5> 미정 </h5>| <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
+|<h5>Point cloud classification with PointNet</h5>|<h5> 미정 </h5>|<h5> 미정 </h5>| <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
+|<h5>Few-Shot learning with Reptile</h5>|<h5> 미정 </h5>|<h5> 미정 </h5>| <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
+|<h5>Object Detection with RetinaNet</h5>|<h5> 미정 </h5>|<h5> 미정 </h5>| <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
+|<h5>Semantic Image Clustering</h5>|<h5> 미정 </h5>|<h5> 미정 </h5>| <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
+|<h5>Image Super-Resolution using an Efficient Sub-Pixel CNN</h5>|<h5> 미정 </h5>|<h5> 미정 </h5>| <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
+|<h5>Supervised Contrastive Learning</h5>|<h5> 미정 </h5>|<h5> 미정 </h5>| <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
+|<h5>Visualizing what convnets learn</h5>|<h5> 미정 </h5>|<h5> 미정 </h5>| <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
+|<h5>Pneumonia Classification on TPU</h5>|<h5> 미정 </h5>|<h5> 미정 </h5>| <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> | <input type="checkbox" disabled/> |
 
 ### Natural Language Processing
 
