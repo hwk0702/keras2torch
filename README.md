@@ -26,7 +26,7 @@ Original github address: https://github.com/keras-team/keras-io
 
 ### Computer Vision
 
-|task|발표자|발표일|강형원|김정섭|최정우|허재혁|
+|Subject|발표자|발표일|강형원|김정섭|최정우|허재혁|
 |---|---|---|---|---|---|---|
 |Image classification from scratch| 미정 | 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Simple MNIST convnet| 미정 | 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
@@ -51,7 +51,7 @@ Original github address: https://github.com/keras-team/keras-io
 
 ### Natural Language Processing
 
-|task|발표자|발표일|강형원|김정섭|최정우|허재혁|
+|Subject|발표자|발표일|강형원|김정섭|최정우|허재혁|
 |---|---|---|---|---|---|---|
 |Text classification from scratch| 미정 | 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Sequence to sequence learning for performing number addition| 미정 | 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
@@ -67,7 +67,7 @@ Original github address: https://github.com/keras-team/keras-io
 
 ### Structured Data
 
-|task|발표자|발표일|강형원|김정섭|최정우|허재혁|
+|Subject|발표자|발표일|강형원|김정섭|최정우|허재혁|
 |---|---|---|---|---|---|---|
 |Structured data classification from scratch| 미정 | 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Classification with Gated Residual and Variable Selection Networks| 미정 | 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
@@ -79,7 +79,7 @@ Original github address: https://github.com/keras-team/keras-io
 
 ### Timeseries
 
-|task|발표자|발표일|강형원|김정섭|최정우|허재혁|
+|Subject|발표자|발표일|강형원|김정섭|최정우|허재혁|
 |---|---|---|---|---|---|---|
 |Timeseries anomaly detection using an Autoencoder| 미정 | 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Timeseries classification from scratch| 미정 | 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
@@ -87,14 +87,14 @@ Original github address: https://github.com/keras-team/keras-io
 
 ### Audio Data
 
-|task|발표자|발표일|강형원|김정섭|최정우|허재혁|
+|Subject|발표자|발표일|강형원|김정섭|최정우|허재혁|
 |---|---|---|---|---|---|---|
 |Speaker Recognition| 미정 | 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Automatic Speech Recognition with Transformer| 미정 | 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 
 ### Generative Deep Learning
 
-|task|발표자|발표일|강형원|김정섭|최정우|허재혁|
+|Subject|발표자|발표일|강형원|김정섭|최정우|허재혁|
 |---|---|---|---|---|---|---|
 |Variational AutoEncoder| 미정 | 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |GAN overriding Model.train_step| 미정 | 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
@@ -109,7 +109,7 @@ Original github address: https://github.com/keras-team/keras-io
 
 ### Reinforcement Learning
 
-|task|발표자|발표일|강형원|김정섭|최정우|허재혁|
+|Subject|발표자|발표일|강형원|김정섭|최정우|허재혁|
 |---|---|---|---|---|---|---|
 |Actor Critic Method| 미정 | 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Deep Deterministic Policy Gradient (DDPG)| 미정 | 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
@@ -117,7 +117,7 @@ Original github address: https://github.com/keras-team/keras-io
 
 ### Quick Keras Recipes
 
-|task|발표자|발표일|강형원|김정섭|최정우|허재혁|
+|Subject|발표자|발표일|강형원|김정섭|최정우|허재혁|
 |---|---|---|---|---|---|---|
 |Simple custom layer example: Antirectifier| 미정 | 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Probabilistic Bayesian Neural Networks| 미정 | 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
