@@ -3,6 +3,7 @@
 ## keras2pytorch 스터디
 
 [keras documentaion examples](https://keras.io/examples/)
+
 Original github address: https://github.com/keras-team/keras-io
 
 참여자: [강형원](https://github.com/hwk0702), [김정섭](https://github.com/jskim0406), [최정우](), [허재혁](https://github.com/TooTouch)
@@ -13,14 +14,14 @@ Original github address: https://github.com/keras-team/keras-io
 
 ### 발표 계획
 
-날짜: 2021-03-00
+날짜: 2021-03-14
 
 | 발표자 |주제|
 |---|---|
-|강형원|A|
-|김정섭|B|
-|최정우|C|
-|허재혁|D|
+|강형원|Semantic Similarity with BERT|
+|김정섭|Text classification with Transformer|
+|최정우|-|
+|허재혁|Semantic Similarity with BERT|
 
 ----
 
@@ -28,7 +29,7 @@ Original github address: https://github.com/keras-team/keras-io
 
 |Subject|발표자|강형원|김정섭|최정우|허재혁|
 |---|---|---|---|---|---|
-|Image classification from scratch| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
+|Image classification from scratch| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Simple MNIST convnet| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Image segmentation with a U-Net-like architecture| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |3D Image Classification from CT Scans| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
@@ -60,7 +61,7 @@ Original github address: https://github.com/keras-team/keras-io
 |End-to-end Masked Language Modeling with BERT| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Natural language image search with a Dual Encoder| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Using pre-trained word embeddings| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
-|Semantic Similarity with BERT| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
+|Semantic Similarity with BERT| 강형원, 허재혁 | <ul><li>[x] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[x] </li></ul> |
 |Text classification with Switch Transformer| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Text classification with Transformer| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Text Extraction with BERT| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
