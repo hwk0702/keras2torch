@@ -130,6 +130,6 @@ dmypy.json
 
 # data
 Natural_Language_Processing/SNLI_Corpus/
-Natural_Language_Processing/Semantic_Similarity_with_BERT/
-Natural_Language_Processing/bert_base_uncased/
 Natural_Language_Processing/.data/
+bert_base_uncased/
+*.pth
