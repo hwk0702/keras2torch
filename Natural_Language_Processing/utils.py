@@ -1,13 +1,33 @@
 import sys
+import os
 import time
+import torch
+import numpy as np
+import random
 
-term_width = 50
-TOTAL_BAR_LENGTH = 30.
-last_time = time.time()
-begin_time = last_time
+def torch_seed(random_seed):
+    torch.manual_seed(random_seed)
+    torch.cuda.manual_seed(random_seed)
+    torch.cuda.manual_seed_all(random_seed) # if use multi-GPU
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
+    np.random.seed(random_seed)
+    random.seed(random_seed)
+    os.environ['PYTHONHASHSEED'] = str(random_seed)
 
-def progress_bar(current, total, msg=None):
-    global last_time, begin_time
+
+
+def progress_bar(current, total, msg=None, term_width: int = None, notebook: bool = False):
+    if term_width is None:
+        _, term_width = os.popen('stty size', 'r').read().split()
+        term_width = int(term_width)
+    else:
+        term_width = term_width
+
+    TOTAL_BAR_LENGTH = 65.
+    last_time = time.time()
+    begin_time = last_time
+
     if current == 0:
         begin_time = time.time()  # Reset for new bar.
 
@@ -39,9 +59,10 @@ def progress_bar(current, total, msg=None):
         sys.stdout.write(' ')
 
     # Go back to the center of the bar.
-    for i in range(term_width-int(TOTAL_BAR_LENGTH/2)+2):
-        sys.stdout.write('\b')
-    sys.stdout.write(' %d/%d ' % (current+1, total))
+    if not notebook:
+        for i in range(term_width-int(TOTAL_BAR_LENGTH/2)+2):
+            sys.stdout.write('\b')
+        sys.stdout.write(' %d/%d ' % (current+1, total))
 
     if current < total-1:
         sys.stdout.write('\r')
