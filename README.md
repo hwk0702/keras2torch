@@ -1,6 +1,6 @@
-# keras_documentation_to_pytorch
+# keras2torch
 
-## keras2pytorch 스터디
+## keras2torch 스터디
 
 [keras documentaion examples](https://keras.io/examples/)
 
@@ -14,14 +14,14 @@ Original github address: https://github.com/keras-team/keras-io
 
 ### 발표 계획
 
-날짜: 2021-03-14
+날짜: 2021-03-28
 
 | 발표자 |주제|
 |---|---|
-|강형원|Semantic Similarity with BERT|
-|김정섭|Text classification with Transformer|
+|강형원|Deep Q-Learning for Atari Breakout|
+|김정섭|-|
 |최정우|-|
-|허재혁|Semantic Similarity with BERT|
+|허재혁|-|
 
 ----
 
@@ -55,7 +55,7 @@ Original github address: https://github.com/keras-team/keras-io
 |Subject|발표자|강형원|김정섭|최정우|허재혁|
 |---|---|---|---|---|---|
 |Text classification from scratch| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
-|Sequence to sequence learning for performing number addition| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
+|Sequence to sequence learning for performing number addition| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[x] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Bidirectional LSTM on IMDB| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Character-level recurrent sequence-to-sequence model| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |End-to-end Masked Language Modeling with BERT| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
@@ -64,7 +64,7 @@ Original github address: https://github.com/keras-team/keras-io
 |Semantic Similarity with BERT| 강형원, 허재혁 | <ul><li>[x] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[x] </li></ul> |
 |Text classification with Switch Transformer| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Text classification with Transformer| 김정섭 | <ul><li>[ ] </li></ul> | <ul><li>[x] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
-|Text Extraction with BERT| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
+|Text Extraction with BERT| 허재혁 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[x] </li></ul> |
 
 ### Structured Data
 
@@ -112,9 +112,9 @@ Original github address: https://github.com/keras-team/keras-io
 
 |Subject|발표자|강형원|김정섭|최정우|허재혁|
 |---|---|---|---|---|---|
-|Actor Critic Method| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
+|Actor Critic Method| 강형원 | <ul><li>[x] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Deep Deterministic Policy Gradient (DDPG)| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
-|Deep Q-Learning for Atari Breakout| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
+|Deep Q-Learning for Atari Breakout| 강형원 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 
 ### Quick Keras Recipes
 
