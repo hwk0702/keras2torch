@@ -20,9 +20,9 @@ Original github address: https://github.com/keras-team/keras-io
 |---|---|
 |강형원|Deep Q-Learning for Atari Breakout|
 |김수빈|-|
-|김정섭|-|
+|김정섭|Character-level recurrent sequence-to-sequence model|
 |최정우|-|
-|허재혁|-|
+|허재혁|Grad-CAM class activation visualization|
 
 ----
 
