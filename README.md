@@ -115,7 +115,7 @@ Original github address: https://github.com/keras-team/keras-io
 |---|---|---|---|---|---|
 |Actor Critic Method| 강형원 | <ul><li>[x] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Deep Deterministic Policy Gradient (DDPG)| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
-|Deep Q-Learning for Atari Breakout| 강형원 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
+|Deep Q-Learning for Atari Breakout| 강형원 | <ul><li>[x] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 
 ### Quick Keras Recipes
 
