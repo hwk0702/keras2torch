@@ -133,3 +133,6 @@ Natural_Language_Processing/SNLI_Corpus/
 Natural_Language_Processing/.data/
 bert_base_uncased/
 *.pth
+
+aclImdb/
+aclImdb_v1.tar.gz
