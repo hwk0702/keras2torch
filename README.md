@@ -6,7 +6,7 @@
 
 Original github address: https://github.com/keras-team/keras-io
 
-참여자: [강형원](https://github.com/hwk0702), [김정섭](https://github.com/jskim0406), [최정우](), [허재혁](https://github.com/TooTouch)
+참여자: [강형원](https://github.com/hwk0702), [김수빈](https://github.com/suubkiim), [김정섭](https://github.com/jskim0406), [최정우](), [허재혁](https://github.com/TooTouch)
 
 시작 일자: 2021.03.04(목)
 
@@ -19,6 +19,7 @@ Original github address: https://github.com/keras-team/keras-io
 | 발표자 |주제|
 |---|---|
 |강형원|Deep Q-Learning for Atari Breakout|
+|김수빈|-|
 |김정섭|-|
 |최정우|-|
 |허재혁|-|
@@ -27,7 +28,7 @@ Original github address: https://github.com/keras-team/keras-io
 
 ### Computer Vision
 
-|Subject|발표자|강형원|김정섭|최정우|허재혁|
+|Subject|발표자|강형원|김정섭|김수빈|허재혁|
 |---|---|---|---|---|---|
 |Image classification from scratch| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Simple MNIST convnet| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
@@ -52,7 +53,7 @@ Original github address: https://github.com/keras-team/keras-io
 
 ### Natural Language Processing
 
-|Subject|발표자|강형원|김정섭|최정우|허재혁|
+|Subject|발표자|강형원|김정섭|김수빈|허재혁|
 |---|---|---|---|---|---|
 |Text classification from scratch| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Sequence to sequence learning for performing number addition| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[x] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
@@ -68,7 +69,7 @@ Original github address: https://github.com/keras-team/keras-io
 
 ### Structured Data
 
-|Subject|발표자|강형원|김정섭|최정우|허재혁|
+|Subject|발표자|강형원|김정섭|김수빈|허재혁|
 |---|---|---|---|---|---|
 |Structured data classification from scratch| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Classification with Gated Residual and Variable Selection Networks| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
@@ -80,7 +81,7 @@ Original github address: https://github.com/keras-team/keras-io
 
 ### Timeseries
 
-|Subject|발표자|강형원|김정섭|최정우|허재혁|
+|Subject|발표자|강형원|김정섭|김수빈|허재혁|
 |---|---|---|---|---|---|
 |Timeseries anomaly detection using an Autoencoder| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Timeseries classification from scratch| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
@@ -88,14 +89,14 @@ Original github address: https://github.com/keras-team/keras-io
 
 ### Audio Data
 
-|Subject|발표자|강형원|김정섭|최정우|허재혁|
+|Subject|발표자|강형원|김정섭|김수빈|허재혁|
 |---|---|---|---|---|---|
 |Speaker Recognition| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Automatic Speech Recognition with Transformer| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 
 ### Generative Deep Learning
 
-|Subject|발표자|강형원|김정섭|최정우|허재혁|
+|Subject|발표자|강형원|김정섭|김수빈|허재혁|
 |---|---|---|---|---|---|
 |Variational AutoEncoder| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |GAN overriding Model.train_step| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
@@ -110,7 +111,7 @@ Original github address: https://github.com/keras-team/keras-io
 
 ### Reinforcement Learning
 
-|Subject|발표자|강형원|김정섭|최정우|허재혁|
+|Subject|발표자|강형원|김정섭|김수빈|허재혁|
 |---|---|---|---|---|---|
 |Actor Critic Method| 강형원 | <ul><li>[x] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Deep Deterministic Policy Gradient (DDPG)| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
@@ -118,7 +119,7 @@ Original github address: https://github.com/keras-team/keras-io
 
 ### Quick Keras Recipes
 
-|Subject|발표자|강형원|김정섭|최정우|허재혁|
+|Subject|발표자|강형원|김정섭|김수빈|허재혁|
 |---|---|---|---|---|---|
 |Simple custom layer example: Antirectifier| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Probabilistic Bayesian Neural Networks| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
