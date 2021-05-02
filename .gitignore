@@ -136,3 +136,8 @@ bert_base_uncased/
 
 aclImdb/
 aclImdb_v1.tar.gz
+
+data/
+*.zip
+*.txt
+*.out
