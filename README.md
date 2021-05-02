@@ -20,9 +20,9 @@ Original github address: https://github.com/keras-team/keras-io
 |---|---|
 |강형원|Deep Q-Learning for Atari Breakout|
 |김수빈|-|
-|김정섭|-|
+|김정섭|Character-level recurrent sequence-to-sequence model|
 |최정우|-|
-|허재혁|-|
+|허재혁|Grad-CAM class activation visualization|
 
 ----
 
@@ -36,7 +36,7 @@ Original github address: https://github.com/keras-team/keras-io
 |3D Image Classification from CT Scans| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |OCR model for reading Captchas| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Next-frame prediction with Conv-LSTM| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
-|Grad-CAM class activation visualization| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
+|Grad-CAM class activation visualization| 허재혁 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[x] </li></ul> |
 |Image classification via fine-tuning with EfficientNet| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Image Classification with Vision Transformer| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Model interpretability with Integrated Gradients| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
@@ -58,7 +58,7 @@ Original github address: https://github.com/keras-team/keras-io
 |Text classification from scratch| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Sequence to sequence learning for performing number addition| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[x] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Bidirectional LSTM on IMDB| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
-|Character-level recurrent sequence-to-sequence model| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
+|Character-level recurrent sequence-to-sequence model| 김정섭 | <ul><li>[ ] </li></ul> | <ul><li>[x] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |End-to-end Masked Language Modeling with BERT| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Natural language image search with a Dual Encoder| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |Using pre-trained word embeddings| 미정 | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
