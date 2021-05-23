@@ -142,3 +142,5 @@ data/
 *.txt
 *.out
 Computer_Vision/*.json
+
+logs/
