@@ -2,6 +2,7 @@ import sys
 import os
 import time
 import torch
+import json
 import numpy as np
 import random
 
@@ -15,6 +16,8 @@ def torch_seed(random_seed):
     random.seed(random_seed)
     os.environ['PYTHONHASHSEED'] = str(random_seed)
 
+last_time = time.time()
+begin_time = last_time
 
 
 def progress_bar(current, total, msg=None, term_width: int = None):
@@ -25,9 +28,9 @@ def progress_bar(current, total, msg=None, term_width: int = None):
         term_width = term_width
 
     TOTAL_BAR_LENGTH = 65.
-    last_time = time.time()
-    begin_time = last_time
 
+    global last_time, begin_time
+    
     if current == 0:
         begin_time = time.time()  # Reset for new bar.
 
@@ -103,7 +106,7 @@ def format_time(seconds):
 
 def train(
     model, dataloader, criterion, optimizer, teacher_model=None, 
-    distill_criterion=None, alpha=0.1, temperature=10, device='cpu'
+    distill_criterion=None, alpha=0.1, temperature=10, loss_method='method1', device='cpu'
 ):
     if teacher_model!=None:
         teacher_model.eval()
@@ -127,12 +130,33 @@ def train(
         
         # Knowledge Distillation
         if teacher_model != None:
-            student_outputs = torch.nn.functional.log_softmax(outputs / temperature, dim=1) # log softmax
-            teacher_outputs = torch.nn.functional.softmax(teacher_outputs / temperature, dim=1) # softmax
+            if loss_method == 'method1':
+                student_outputs = torch.nn.functional.log_softmax(outputs / temperature, dim=1) # log softmax
+                teacher_outputs = torch.nn.functional.softmax(teacher_outputs / temperature, dim=1) # softmax
+                
+                distill_loss = distill_criterion(student_outputs, teacher_outputs)
+                
+                loss = (1 - alpha) * loss + (alpha * distill_loss)
+
+            elif loss_method == 'method2':
+                student_outputs = torch.nn.functional.log_softmax(outputs, dim=1) # log softmax
+                teacher_outputs = torch.nn.functional.softmax(teacher_outputs / temperature, dim=1) # softmax
+                
+                distill_loss = distill_criterion(student_outputs, teacher_outputs)
+                
+                loss = (1 - alpha) * loss + (alpha * distill_loss)
             
-            distill_loss = distill_criterion(student_outputs, teacher_outputs)
-            
-            loss = alpha * loss + (1 - alpha) * distill_loss 
+            elif loss_method == 'method3':
+                student_outputs = torch.nn.functional.log_softmax(outputs / temperature, dim=1) # log softmax
+                teacher_outputs = torch.nn.functional.softmax(teacher_outputs / temperature, dim=1) # softmax
+                
+                distill_loss = distill_criterion(student_outputs, teacher_outputs)
+                
+                loss = (1 - alpha) * loss + (2 * alpha * temperature**2 * distill_loss)
+
+        if not torch.isfinite(loss):
+            print('WARNING: non-finite loss, ending training ')
+            exit(1)
             
         loss.backward()
         optimizer.step()
@@ -145,16 +169,16 @@ def train(
         total += targets.size(0)
         
         # massage
-        progress_bar(current=batch_idx, 
+        progress_bar(current=idx, 
                      total=len(dataloader),
-                     msg='Loss: %.3f | Acc: %.3f%% [%d/%d]' % (total_loss/(batch_idx + 1), 
+                     msg='Loss: %.3f | Acc: %.3f%% [%d/%d]' % (total_loss/(idx + 1), 
                                                                100.*(correct/total), correct, total),
                      term_width=100)
 
     return correct/total, total_loss/len(dataloader)
         
 
-def test(model, dataloader, criterion, savedir, device='cpu'):
+def test(model, dataloader, criterion, device='cpu'):
     correct = 0
     total = 0
     total_loss = 0
@@ -177,33 +201,49 @@ def test(model, dataloader, criterion, savedir, device='cpu'):
             total += targets.size(0)
             
             # massage
-            progress_bar(current=batch_idx, 
+            progress_bar(current=idx, 
                          total=len(dataloader),
-                         msg='Loss: %.3f | Acc: %.3f%% [%d/%d]' % (total_loss/(batch_idx + 1), 
+                         msg='Loss: %.3f | Acc: %.3f%% [%d/%d]' % (total_loss/(idx + 1), 
                                                                  100.*(correct/total), correct, total),
                          term_width=100)
-        
-        if best_acc < (correct/total):
-            state = {'best_epoch':idx, 'best_acc':correct/total, 'model':model.state_dict()}
-            model.save(state, savedir)
-            best_acc = correct/total
 
     return correct/total, total_loss/len(dataloader)
 
             
 def fit(
-    model, epochs, trainloader, testloader, criterion, optimizer, savedir, writer,
-    teacher=None, distill_criterion=None, alpha=0.1, temperature=10, device='cpu'
+    model, start_epoch, epochs, trainloader, testloader, criterion, optimizer, scheduler, savedir, writer,
+    teacher=None, distill_criterion=None, alpha=0.1, temperature=10, temperature_scheduler=False,
+    loss_method='method1', device='cpu'
 ):
-    for epoch in range(epochs):
-        print(f'Epoch: {epoch+1}/{epochs}')
-        train_acc, train_loss = train(model, trainloader, criterion, optimizer,
-                                      teacher, distill_criterion, alpha, temperature, device)
-        valid_acc, valid_loss = test(model, testloader, criterion, savedir, device)
+
+    best_acc = 0
+    if temperature_scheduler:
+        temp_step = (temperature-1)/epochs
+    else:
+        temp_step = 0
+
+    for epoch in range(start_epoch, epochs):
+        print(f'\nEpoch: {epoch+1}/{epochs}')
+        temperature = temperature - (epoch*temp_step)
+        train_acc, train_loss = train(model, trainloader, criterion, optimizer, 
+                                      teacher, distill_criterion, alpha, temperature, loss_method, device)
+        valid_acc, valid_loss = test(model, testloader, criterion, device)
+
+        scheduler.step()
 
         writer.add_scalar('Loss/Train', train_loss, epoch)
         writer.add_scalar('Acc/Train', train_acc, epoch)
         writer.add_scalar('Loss/Validation', valid_loss, epoch)
         writer.add_scalar('Acc/Validation', valid_acc, epoch)
     
+        # checkpoint
+        if best_acc < valid_acc:
+            state = {'best_epoch':epoch, 'best_acc':valid_acc}
+            json.dump(state, open(savedir.replace('pt','json'),'w'), indent=4)
 
+            weights = {'model':model.state_dict()}
+            torch.save(weights, savedir)
+            
+            print('Best Accuracy {0:.3%} to {1:.3%}'.format(best_acc, valid_acc))
+
+            best_acc = valid_acc
