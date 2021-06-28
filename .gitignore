@@ -141,3 +141,6 @@ data/
 *.zip
 *.txt
 *.out
+Computer_Vision/*.json
+
+logs/
