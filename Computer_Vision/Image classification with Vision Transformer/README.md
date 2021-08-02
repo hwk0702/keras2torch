@@ -1,5 +1,7 @@
 # ViT (Vision Transformer)
 
+**Author**: [Tootouch](https://github.com/TooTouch)
+
 **Image classification with Vision Transformer**
 
 - paper: [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)
@@ -40,7 +42,7 @@ pytorch_pretrained_vit=0.0.7
 
 # Experiments
 
-I built the model based ViT-B. The difference between setting 1 and setting 2 was image size and patch size. Fine-tuning model learned better when the images in downsteam task have higher resolution than pre-trained images. I used gradients accumulation becaused of large batch size in limited gpu memory.
+I built the model based ViT-B. The difference between setting 1 and setting 2 was image size, patch size and whether to pre-trained or not. Fine-tuning model learned better when the images in downsteam task have higher resolution than pre-trained images. I used gradients accumulation becaused of large batch size in limited gpu memory.
 
 **Setting 1: model from scratch**
 
