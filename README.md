@@ -1,32 +1,32 @@
-# keras2torch
+# keras2torch Study
 
-## keras2torch 스터디
+## 1. 스터디 소개
+
+Keras documentaion에 올라온 코드를 Pytorch로 코드 이전하는 스터디 입니다.
 
 [keras documentaion examples](https://keras.io/examples/)
 
 Original github address: https://github.com/keras-team/keras-io
 
-참여자: [강형원](https://github.com/hwk0702), [김수빈](https://github.com/suubkiim), [김정섭](https://github.com/jskim0406), [최정우](), [허재혁](https://github.com/TooTouch)
+참여자: [강형원](https://github.com/hwk0702), [김수빈](https://github.com/suubkiim), [김정섭](https://github.com/jskim0406), [허재혁](https://github.com/TooTouch)
 
 시작 일자: 2021.03.04(목)
 
 ---
 
-### 발표 계획
+### Members
 
-날짜: 2021-03-28
+|                 Hyeongwon               |                 Jeongsub                |              jaehyuk               |                   subin                   |
+| :------------------------------------------: | :-----------------------------------------: | :----------------------------------------: | :---------------------------------------------: |
+| <img src="https://avatars.githubusercontent.com/u/31944451?s=400&u=5ee1388c2507ddddb5298eb608393032b4aad489&v=4" width=150px> | <img src="https://github.com/yukyunglee/Transformer_Survey_Study/blob/3254384e154ff2a3232a9fe723da36b1ceb92705/img/ms.jpeg" width=150px> | <img src="https://github.com/yukyunglee/Transformer_Survey_Study/blob/3254384e154ff2a3232a9fe723da36b1ceb92705/img/hs.jpeg" width=150px> |
+|                   **[Github](https://github.com/yukyunglee)**                   |                   **[Github](https://github.com/msub0310)**                   |               **[Github](https://github.com/Hoonst)**               |                   **[Github](https://github.com/jina-kim7)**                   |                   **[Github](https://github.com/TooTouch)**                   |                   **[Github](https://github.com/suubkiim)**                   |
 
-| 발표자 |주제|
-|---|---|
-|강형원|Deep Q-Learning for Atari Breakout|
-|김수빈|-|
-|김정섭|Character-level recurrent sequence-to-sequence model|
-|최정우|-|
-|허재혁|Grad-CAM class activation visualization|
 
-----
 
-### Computer Vision
+---
+
+### 목록
+#### Computer Vision
 
 |Subject|발표자|강형원|김정섭|김수빈|허재혁|
 |---|---|---|---|---|---|
