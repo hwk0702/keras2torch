@@ -114,7 +114,7 @@ Original github address: https://github.com/keras-team/keras-io
 - CycleGAN
 - Character-level text generation with LSTM
 - PixelCNN
-- Density estimation using Real NVP
+- [Density estimation using Real NVP](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/Normalizing-Flow/RNVP/real-nvp-pytorch.ipynb)
 - Face image generation with StyleGAN
 - Text generation with a miniature GPT
 - Vector-Quantized Variational Autoencoders
@@ -124,7 +124,6 @@ Original github address: https://github.com/keras-team/keras-io
 
 - [Distributions_TFP_Pyro](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Normalizing-Flow/Framework_practice/Distributions_TFP_Pyro)
 - [Non-linear Independent Component Estimation (NICE)](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/Normalizing-Flow/NICE/NICE_codes.ipynb)
-- [Real-valued Non-Volume Preserving (RealNVP)](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/Normalizing-Flow/RNVP/real-nvp-pytorch.ipynb)
 
 ### Reinforcement Learning
 
