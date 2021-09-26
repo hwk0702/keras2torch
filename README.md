@@ -109,7 +109,7 @@ Original github address: https://github.com/keras-team/keras-io
 - [DCGAN to generate face images](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/DCGAN_to_generate_face_images/DCGAN_to_generate_face_images.ipynb)
 - WGAN-GP overriding Model.train_step
 - Neural style transfer
-- Deep Dream
+- [Deep Dream](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Deep_Dream)
 - Conditional GAN
 - CycleGAN
 - Character-level text generation with LSTM
