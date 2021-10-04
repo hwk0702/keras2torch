@@ -37,7 +37,7 @@ Original github address: https://github.com/keras-team/keras-io
 - Next-Frame Video Prediction with Convolutional LSTMs
 - [CutMix data augmentation for image classification](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Augmentation/CutMix%20data%20augmentation%20for%20image%20classification.ipynb)
 - Multiclass semantic segmentation using DeepLabV3+
-- Monocular depth estimation
+- [Monocular depth estimation](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Monocular_depth_estimation/Monocular_depth_estimation.ipynb)
 - [Grad-CAM class activation visualization](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Grad-CAM_class_activation_visualization/Grad-CAM%20class%20activation%20visualization%20HJH.ipynb)
 - Gradient Centralization for Better Training Performance
 - Image Captioning
