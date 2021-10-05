@@ -27,7 +27,7 @@ Original github address: https://github.com/keras-team/keras-io
 ### 목록
 #### Computer Vision
 
-- Image segmentation with a U-Net-like architecture
+- [Image segmentation with a U-Net-like architecture](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Image_Segmentation_Unet_Xception/%5BKJS%5DImage%20segmentation%20with%20a%20U-Net-like%20architecture(torch).ipynb)
 - 3D image classification from CT scans
 - Semi-supervision and domain adaptation with AdaMatch
 - Convolutional autoencoder for image denoising
@@ -108,7 +108,7 @@ Original github address: https://github.com/keras-team/keras-io
 - [Variational AutoEncoder](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Variational_AutoEncoder)
 - [DCGAN to generate face images](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/DCGAN_to_generate_face_images/DCGAN_to_generate_face_images.ipynb)
 - WGAN-GP overriding Model.train_step
-- Neural style transfer
+- [Neural style transfer](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/Neural_style_transfer/Neural_style_transfer.ipynb)
 - [Deep Dream](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Deep_Dream)
 - Conditional GAN
 - CycleGAN
@@ -116,7 +116,7 @@ Original github address: https://github.com/keras-team/keras-io
 - PixelCNN
 - [Density estimation using Real NVP](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/Normalizing-Flow/RNVP/real-nvp-pytorch.ipynb)
 - Face image generation with StyleGAN
-- Text generation with a miniature GPT
+- [Text generation with a miniature GPT](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/Text_generation_with_a_miniauture_GPT/Text_generation_with_a_miniauture_GPT_KSB.ipynb)
 - Vector-Quantized Variational Autoencoders
 - WGAN-GP with R-GCN for the generation of small molecular graphs
 
