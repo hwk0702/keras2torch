@@ -89,4 +89,4 @@ with amp.scale_loss(loss, optimizer) as scaled_loss:
 
 # Results
 
-<iframe src="https://wandb.ai/tootouch/Comparison%20AMP/reports/Shared-panel-21-10-08-15-10-69--VmlldzoxMDk5NTQy?accessToken=yqnas7js75fqkf8dn2u4b8jikp79hyohg5u6hvekvd9zirhr4mnlubvr3t8ut3iw" style="border:none;height:1024px;width:100%">
+https://wandb.ai/tootouch/Comparison%20AMP?workspace=
