@@ -1,3 +1,5 @@
+**Author**: Tootouch (Jaehyuk Heo)
+
 # AMP(Automatic Mixed-Precision)
 
 AMP는 크게 두 가지 방법 존재
