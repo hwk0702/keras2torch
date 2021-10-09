@@ -138,3 +138,11 @@ Original github address: https://github.com/keras-team/keras-io
 - Node Classification with Graph Neural Networks
 - Message-passing neural network for molecular property prediction
 - Graph representation learning with node2vec
+
+### Adversarial Attacks
+
+- [Projected Gradient Descent](https://github.com/hwk0702/keras2torch/tree/main/Adversarial_Attack/Projected_Gradient_Descent)
+
+### Pytorch Accelerator
+
+- [Automatic Mixed Precision](https://github.com/hwk0702/keras2torch/tree/main/Pytorch-Accelerator/AMP)
