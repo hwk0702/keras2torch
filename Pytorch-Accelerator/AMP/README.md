@@ -2,6 +2,11 @@
 
 # AMP(Automatic Mixed-Precision)
 
+**Reference**
+
+- Mixed Precision Training [ [paper](https://arxiv.org/pdf/1710.03740.pdf) ]
+- Mixed-Precision Training of Deep Neural Networks [ [이호성님 블로그](https://hoya012.github.io/blog/Mixed-Precision-Training/) ]
+
 AMP는 크게 두 가지 방법 존재
 - Pytorch [ [doc](https://pytorch.org/docs/stable/amp.html) ]
 - NVIDIA [ [doc](https://nvidia.github.io/apex/) ]
