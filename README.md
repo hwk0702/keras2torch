@@ -100,7 +100,7 @@ Original github address: https://github.com/keras-team/keras-io
 
 ### Audio Data
 
-- Speaker Recognition
+- [Speaker Recognition](https://github.com/hwk0702/keras2torch/blob/main/Audio_Data/Speaker%20Recognition.ipynb)
 - Automatic Speech Recognition with Transformer
 
 ### Generative Deep Learning
