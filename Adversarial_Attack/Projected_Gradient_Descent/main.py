@@ -99,7 +99,7 @@ def attack(args, eps, model, loader):
     loss_m = AverageMeter()
 
     end = time.time()
-
+    model.eval()
     for idx, (image, target) in enumerate(tqdm(loader)):
 
         adv_images = atk(image, target)
