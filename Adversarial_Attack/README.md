@@ -9,11 +9,11 @@
 
 ## Adversarial Examples
 
-**FGSM** ($\epsilon=0.031$)
+**FGSM** (epsilon=0.031)
 
 ![image](https://user-images.githubusercontent.com/37654013/138395422-ec33aa06-817f-4cbf-80fe-12ebee5a54ea.png)
 
-**PGD** ($\epsilon=0.031, \alpha=2/255, step=40$)
+**PGD** (epsilon=0.031, alpha=2/255, step=40)
 
 ![image](https://user-images.githubusercontent.com/37654013/138395190-8c1da9fc-621b-42a1-96bb-cb3b4a291c24.png)
 
