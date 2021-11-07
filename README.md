@@ -51,7 +51,7 @@ Original github address: https://github.com/keras-team/keras-io
 - 3D volumetric rendering with NeRF
 - Self-supervised contrastive learning with NNCLR
 - Image classification with Perceiver
-- Point cloud classification with PointNet
+- [Point cloud classification with PointNet](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Point_cloud_classification/Point_cloud_classification.ipynb)
 - RandAugment for Image Classification for Improved Robustness
 - Few-Shot learning with Reptile
 - Object Detection with RetinaNet
@@ -108,10 +108,10 @@ Original github address: https://github.com/keras-team/keras-io
 - WGAN-GP overriding Model.train_step
 - [Neural style transfer](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/Neural_style_transfer/Neural_style_transfer.ipynb)
 - [Deep Dream](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Deep_Dream)
-- Conditional GAN
+- [Conditional GAN](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Conditional_GAN)
 - CycleGAN
 - Character-level text generation with LSTM
-- PixelCNN
+- [PixelCNN](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/PixclCNN/pixelcnn.ipynb)
 - [Density estimation using Real NVP](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/Normalizing-Flow/RNVP/real-nvp-pytorch.ipynb)
 - Face image generation with StyleGAN
 - [Text generation with a miniature GPT](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/Text_generation_with_a_miniauture_GPT/Text_generation_with_a_miniauture_GPT_KSB.ipynb)
