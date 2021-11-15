@@ -9,6 +9,8 @@ Keras documentaion에 올라온 코드를 Pytorch로 코드 이전하는 스터�
 Original github address: https://github.com/keras-team/keras-io
 
 참여자: [강형원](https://github.com/hwk0702), [김수빈](https://github.com/suubkiim), [김정섭](https://github.com/jskim0406), [정용기](https://github.com/animilux), [허재혁](https://github.com/TooTouch), [고유경](https://github.com/yookyungkho)
+
+
 시작 일자: 2021.03.04(목)
 
 ---
