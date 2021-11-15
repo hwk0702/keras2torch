@@ -54,6 +54,7 @@ Original github address: https://github.com/keras-team/keras-io
 - Self-supervised contrastive learning with NNCLR
 - Image classification with Perceiver
 - [Point cloud classification with PointNet](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Point_cloud_classification/Point_cloud_classification.ipynb)
+- [Point cloud segmentation with PointNet](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Point_cloud_segmentation_with_PointNet/Point_cloud_segmentation_with_PointNet.ipynb)
 - RandAugment for Image Classification for Improved Robustness
 - Few-Shot learning with Reptile
 - Object Detection with RetinaNet
@@ -74,7 +75,7 @@ Original github address: https://github.com/keras-team/keras-io
 - [End-to-end Masked Language Modeling with BERT](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/End-to-end_Masked_Language_Modeling_with_BERT/mlm_and_finetune_with_bert_KSB.ipynb)
 - Multimodal entailment
 - [Named Entity Recognition using Transformers](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Named_Entity_Recognition%20using_Transformers/NER_using_Transformers_KSB.ipynb)
-- English-to-Spanish translation with a sequence-to-sequence Transformer
+- [English-to-Spanish translation with a sequence-to-sequence Transformer](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Machine_Translation_via_seq2seq_Transformer/spn2eng_Translation_via_seq2seq_Transformer_KYK.ipynb)
 - [Natural language image search with a Dual Encoder](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Natural_language_image%20search_with_a_Dual_Encoder/nl_image_search_KSB.ipynb)
 - [Semantic Similarity with BERT](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Semantic_Similarity_with_BERT/Semantic_Similarity_with_BERT_HJH.ipynb)
 - Text classification with Switch Transformer
