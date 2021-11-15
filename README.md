@@ -8,17 +8,17 @@ Keras documentaion에 올라온 코드를 Pytorch로 코드 이전하는 스터�
 
 Original github address: https://github.com/keras-team/keras-io
 
-참여자: [강형원](https://github.com/hwk0702), [김수빈](https://github.com/suubkiim), [김정섭](https://github.com/jskim0406), [정용기](https://github.com/animilux), [허재혁](https://github.com/TooTouch)
+참여자: [강형원](https://github.com/hwk0702), [김수빈](https://github.com/suubkiim), [김정섭](https://github.com/jskim0406), [정용기](https://github.com/animilux), [허재혁](https://github.com/TooTouch), [고유경](https://github.com/yookyungkho)
 시작 일자: 2021.03.04(목)
 
 ---
 
 ### Members
 
-|                 Hyeongwon               |                 Subin                |              Jeongsub               |                   Yonggi                   |                   Jaehyuk                   |
-| :------------------------------------------: | :-----------------------------------------: | :----------------------------------------: | :---------------------------------------------: | :---------------------------------------------: |
-| <img src="https://avatars.githubusercontent.com/u/31944451?s=400&u=5ee1388c2507ddddb5298eb608393032b4aad489&v=4" width=150px> | <img src="https://github.com/yukyunglee/Transformer_Survey_Study/blob/3254384e154ff2a3232a9fe723da36b1ceb92705/img/sb.png?raw=true" width=150px> | <img src="https://avatars.githubusercontent.com/u/63832233?v=4" width=150px> | <img src="https://avatars.githubusercontent.com/u/77085163?v=4" width=150px> | <img src="https://github.com/yukyunglee/Transformer_Survey_Study/blob/3254384e154ff2a3232a9fe723da36b1ceb92705/img/jh.png?raw=true" width=150px> |
-|                   **[Github](https://github.com/hwk0702)**                   |                   **[Github](https://github.com/suubkiim)**                   |               **[Github](https://github.com/jskim0406)**               |                   **[Github](https://github.com/animilux)**                   |                   **[Github](https://github.com/TooTouch)**                   |
+|                 Hyeongwon               |                 Subin                |              Jeongsub               |                   Yonggi                   |                   Jaehyuk                   |                   Yookyung                   |
+| :------------------------------------------: | :-----------------------------------------: | :----------------------------------------: | :---------------------------------------------: | :---------------------------------------------: | :-----------------------------------------: |
+| <img src="https://avatars.githubusercontent.com/u/31944451?s=400&u=5ee1388c2507ddddb5298eb608393032b4aad489&v=4" width=150px> | <img src="https://github.com/yukyunglee/Transformer_Survey_Study/blob/3254384e154ff2a3232a9fe723da36b1ceb92705/img/sb.png?raw=true" width=150px> | <img src="https://avatars.githubusercontent.com/u/63832233?v=4" width=150px> | <img src="https://avatars.githubusercontent.com/u/77085163?v=4" width=150px> | <img src="https://github.com/yukyunglee/Transformer_Survey_Study/blob/3254384e154ff2a3232a9fe723da36b1ceb92705/img/jh.png?raw=true" width=150px> | <img src="https://user-images.githubusercontent.com/68496320/141753962-0e4e5817-c549-4637-a13f-56f0d2e90e25.png" width=150px> |
+|                   **[Github](https://github.com/hwk0702)**                   |                   **[Github](https://github.com/suubkiim)**                   |               **[Github](https://github.com/jskim0406)**               |                   **[Github](https://github.com/animilux)**                   |                   **[Github](https://github.com/TooTouch)**                   |                   **[Github](https://github.com/yookyungkho)**                   |
 
 ---
 
