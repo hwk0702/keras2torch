@@ -43,7 +43,7 @@ Original github address: https://github.com/keras-team/keras-io
 - Image Captioning
 - [Image classification with Vision Transformer](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Image_classification_with_Vision_Transformer/Image%20classification%20with%20Vision%20Transformer.ipynb)
 - [Model interpretability with Integrated Gradients](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Model_Interpretability_with_Integrated_Gradients/Model%20interpretability%20with%20Integrated%20Gradients.ipynb)
-- Involutional neural networks
+- [Involutional neural networks](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Involutional%20neural%20networks/Involutional%20neural%20networks.ipynb)
 - Keypoint Detection with Transfer Learning
 - [Knowledge Distillation](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Knowledge_Distillation/Knowledge%20Distillation%20HJH.ipynb)
 - Learning to Resize in Computer Vision
@@ -88,10 +88,10 @@ Original github address: https://github.com/keras-team/keras-io
 ### Structured Data
 
 - Classification with Gated Residual and Variable Selection Networks
-- Collaborative Filtering for Movie Recommendations
+- [Collaborative Filtering for Movie Recommendations](https://github.com/hwk0702/keras2torch/blob/main/Structured_Data/Collaborative_Filtering_for_Movie_Recommendations/Collaborative_Filtering_for_Movie_Recommendations.ipynb)
 - Classification with Neural Decision Forests
 - Imbalanced classification: credit card fraud detection
-- A Transformer-based recommendation system
+- [A Transformer-based recommendation system](https://github.com/hwk0702/keras2torch/blob/main/Structured_Data/Collaborative_Filtering_for_Movie_Recommendations/Collaborative_Filtering_for_Movie_Recommendations.ipynb)
 - Structured data learning with Wide, Deep, and Cross networks
 
 ### Timeseries
