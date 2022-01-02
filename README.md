@@ -79,7 +79,7 @@ Original github address: https://github.com/keras-team/keras-io
 - [Natural language image search with a Dual Encoder](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Natural_language_image%20search_with_a_Dual_Encoder/nl_image_search_KSB.ipynb)
 - [Semantic Similarity with BERT](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Semantic_Similarity_with_BERT/Semantic_Similarity_with_BERT_HJH.ipynb)
 - Text classification with Switch Transformer
-- Text classification with Transformer
+- [Text classification with Transformer](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Text_Classification_with_Transformers/text_classification_with_transformers_KYK.ipynb)
 - [Text Extraction with BERT](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Text_Extraction_with_BERT/Text_Extraction_with_BERT_HJH.ipynb)
 
 #### Extra
