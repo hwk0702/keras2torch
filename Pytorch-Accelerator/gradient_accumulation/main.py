@@ -32,7 +32,6 @@ def torch_seed(random_seed):
     random.seed(random_seed)
     os.environ['PYTHONHASHSEED'] = str(random_seed)
 
-
 class AverageMeter:
     """Computes and stores the average and current value"""
     def __init__(self):
@@ -51,25 +50,7 @@ class AverageMeter:
         self.avg = self.sum / self.count
 
 
-class ApexScaler:
-    def __call__(self, loss, optimizer):
-        with amp.scale_loss(loss, optimizer) as scaled_loss:
-            scaled_loss.backward()
-
-        optimizer.step()
-
-
-class TorchScaler:
-    def __init__(self):
-        self._scaler = torch.cuda.amp.GradScaler()
-
-    def __call__(self, loss, optimizer):
-        self._scaler.scale(loss).backward()
-        self._scaler.step(optimizer)
-        self._scaler.update()
-
-
-def train(model, dataloader, criterion, optimizer, loss_scaler, amp_autocast, log_interval, device='cpu'):   
+def train(model, dataloader, criterion, optimizer, log_interval, accumulation_steps=1, device='cpu'):   
     batch_time_m = AverageMeter()
     data_time_m = AverageMeter()
     acc_m = AverageMeter()
@@ -78,51 +59,56 @@ def train(model, dataloader, criterion, optimizer, loss_scaler, amp_autocast, lo
     end = time.time()
     
     model.train()
+    optimizer.zero_grad()
     for idx, (inputs, targets) in enumerate(dataloader):
-        data_time_m.update(time.time() - end)
+        # optimizer condition
+        opt_cond = (idx + 1) % accumulation_steps == 0
+
+        if opt_cond or idx == 0:
+            data_time_m.update(time.time() - end)
         
         inputs, targets = inputs.to(device), targets.to(device)
-        
+
         # predict
-        with amp_autocast():
-            outputs = model(inputs)
-            loss = criterion(outputs, targets)
-            losses_m.update(loss.item())
-            
-        # loss and update
-        optimizer.zero_grad()
-        
-        if loss_scaler is not None:
-            loss_scaler(loss, optimizer)
-        else:
-            loss.backward()
+        outputs = model(inputs)
+        loss = criterion(outputs, targets)
+        # loss for accumulation steps
+        loss /= accumulation_steps        
+        loss.backward()
+
+        if opt_cond:
+            # loss update
             optimizer.step()
+            optimizer.zero_grad()
+
+            losses_m.update(loss.item()*accumulation_steps)
+
+            # accuracy
+            preds = outputs.argmax(dim=1) 
+            acc_m.update(targets.eq(preds).sum().item()/targets.size(0), n=targets.size(0))
+            
+            batch_time_m.update(time.time() - end)
         
-        preds = outputs.argmax(dim=1) 
-        acc_m.update(targets.eq(preds).sum().item()/targets.size(0), n=targets.size(0))
-        
-        batch_time_m.update(time.time() - end)
-        
-        if idx % log_interval == 0 and idx != 0: 
-            _logger.info('TRAIN [{:>4d}/{}] Loss: {loss.val:>6.4f} ({loss.avg:>6.4f}) '
-                    'Acc: {acc.avg:.3%} '
-                    'LR: {lr:.3e} '
-                    'Time: {batch_time.val:.3f}s, {rate:>7.2f}/s ({batch_time.avg:.3f}s, {rate_avg:>7.2f}/s) '
-                    'Data: {data_time.val:.3f} ({data_time.avg:.3f})'.format(
-                    idx+1, len(dataloader), 
-                    loss       = losses_m, 
-                    acc        = acc_m, 
-                    lr         = optimizer.param_groups[0]['lr'],
-                    batch_time = batch_time_m,
-                    rate       = inputs.size(0) / batch_time_m.val,
-                    rate_avg   = inputs.size(0) / batch_time_m.avg,
-                    data_time  = data_time_m))
+            if (idx // accumulation_steps) % log_interval == 0 and idx != 0: 
+                _logger.info('TRAIN [{:>4d}/{}] Loss: {loss.val:>6.4f} ({loss.avg:>6.4f}) '
+                        'Acc: {acc.avg:.3%} '
+                        'LR: {lr:.3e} '
+                        'Time: {batch_time.val:.3f}s, {rate:>7.2f}/s ({batch_time.avg:.3f}s, {rate_avg:>7.2f}/s) '
+                        'Data: {data_time.val:.3f} ({data_time.avg:.3f})'.format(
+                        (idx+1)//accumulation_steps, len(dataloader)//accumulation_steps, 
+                        loss       = losses_m, 
+                        acc        = acc_m, 
+                        lr         = optimizer.param_groups[0]['lr'],
+                        batch_time = batch_time_m,
+                        rate       = inputs.size(0) / batch_time_m.val,
+                        rate_avg   = inputs.size(0) / batch_time_m.avg,
+                        data_time  = data_time_m))
    
         end = time.time()
     
     return OrderedDict([('acc',acc_m.avg), ('loss',losses_m.avg)])
         
-def test(model, dataloader, criterion, amp_autocast, log_interval, device='cpu'):
+def test(model, dataloader, criterion, log_interval, device='cpu'):
     correct = 0
     total = 0
     total_loss = 0
@@ -133,8 +119,7 @@ def test(model, dataloader, criterion, amp_autocast, log_interval, device='cpu')
             inputs, targets = inputs.to(device), targets.to(device)
             
             # predict
-            with amp_autocast():
-                outputs = model(inputs)
+            outputs = model(inputs)
             
             # loss 
             loss = criterion(outputs, targets)
@@ -153,18 +138,18 @@ def test(model, dataloader, criterion, amp_autocast, log_interval, device='cpu')
                 
 def fit(
     exp_name, model, epochs, trainloader, testloader, criterion, optimizer, scheduler, 
-    loss_scaler, amp_autocast, savedir, log_interval, args, device='cpu'
+    savedir, log_interval, args, accumulation_steps=1, device='cpu'
 ):
     savedir = os.path.join(savedir,exp_name)
     os.makedirs(savedir, exist_ok=True)
-    wandb.init(name=exp_name, project='Comparison AMP', config=args)
+    wandb.init(name=exp_name, project='Accumulation Steps', config=args)
     
     best_acc = 0
 
     for epoch in range(epochs):
         _logger.info(f'\nEpoch: {epoch+1}/{epochs}')
-        train_metrics = train(model, trainloader, criterion, optimizer, loss_scaler, amp_autocast, log_interval, device)
-        eval_metrics = test(model, testloader, criterion, amp_autocast, log_interval, device)
+        train_metrics = train(model, trainloader, criterion, optimizer, log_interval, accumulation_steps, device)
+        eval_metrics = test(model, testloader, criterion, log_interval, device)
 
         scheduler.step()
 
@@ -209,14 +194,14 @@ def run(args):
         transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
     ])
 
-    trainset = datasets.CIFAR10(os.path.join(args.datadir,'CIFAR10'), train=True, download=True, transform=transform_train)
-    testset = datasets.CIFAR10(os.path.join(args.datadir,'CIFAR10'), train=False, download=True, transform=transform_test)
+    trainset = datasets.CIFAR100(os.path.join(args.datadir,'CIFAR100'), train=True, download=True, transform=transform_train)
+    testset = datasets.CIFAR100(os.path.join(args.datadir,'CIFAR100'), train=False, download=True, transform=transform_test)
 
     trainloader = DataLoader(trainset, batch_size=args.batch_size, shuffle=True, num_workers=args.num_workers)
     testloader = DataLoader(testset, batch_size=args.batch_size, shuffle=False, num_workers=args.num_workers)
 
     # Build Model
-    model = ResNet50()
+    model = ResNet50(num_classes=100)
     model.to(device)
     _logger.info('# of params: {}'.format(np.sum([p.numel() for p in model.parameters()])))
 
@@ -224,36 +209,23 @@ def run(args):
     criterion = torch.nn.CrossEntropyLoss()
     optimizer = torch.optim.SGD(model.parameters(), lr=args.lr)
 
-    # Setup AMP
-    amp_autocast = suppress
-    loss_scaler = None
-    if args.apex:
-        model, optimizer = amp.initialize(model, optimizer, opt_level='O1')
-        loss_scaler = ApexScaler()
-        _logger.info('Using NVIDIA APEX AMP')
-    elif args.torch_amp:
-        amp_autocast = torch.cuda.amp.autocast
-        loss_scaler = TorchScaler()
-        _logger.info('Using Pytorch AMP')
-
     # scheduler
     scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=args.epochs)
 
     # Fitting model
-    fit(exp_name     = args.exp_name,
-        model        = model, 
-        epochs       = args.epochs, 
-        trainloader  = trainloader, 
-        testloader   = testloader, 
-        criterion    = criterion, 
-        optimizer    = optimizer, 
-        scheduler    = scheduler,
-        loss_scaler  = loss_scaler, 
-        amp_autocast = amp_autocast, 
-        savedir      = args.savedir,
-        log_interval = args.log_interval,
-        device       = device,
-        args         = args)
+    fit(exp_name           = args.exp_name,
+        model              = model, 
+        epochs             = args.epochs, 
+        trainloader        = trainloader, 
+        testloader         = testloader, 
+        criterion          = criterion, 
+        optimizer          = optimizer, 
+        scheduler          = scheduler,
+        savedir            = args.savedir,
+        log_interval       = args.log_interval,
+        accumulation_steps = args.accumulation_steps,
+        device             = device,
+        args               = args)
 
 if __name__=='__main__':
     parser = argparse.ArgumentParser(description="Tootouch's AMP Experiments")
@@ -265,9 +237,9 @@ if __name__=='__main__':
     parser.add_argument('--batch-size',type=int,default=128,help='batch size')
     parser.add_argument('--num-workers',type=int,default=8,help='the number of workers (threads)')
     parser.add_argument('--apex',action='store_true',default=False)
-    parser.add_argument('--torch-amp',action='store_true',default=False)
     parser.add_argument('--log-interval',type=int,default=10,help='log interval')
     parser.add_argument('--seed',type=int,default=223,help='223 is my birthday')
+    parser.add_argument('--accumulation-steps',type=int,default=1,help='accumulation step size')
 
     args = parser.parse_args()
 
