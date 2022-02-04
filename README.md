@@ -67,6 +67,7 @@ Original github address: https://github.com/keras-team/keras-io
 - Image classification with Swin Transformers
 - [Video Classification with Transformers](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Video_Classification_with_Transformers/Video_Classification_with_Transformers.ipynb) + [Video Vision Transformer](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Video_Classification_with_Transformers/ViViT.ipynb)
 - [Visualizing what convnets learn](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Visualizing_what_convnets_learn)
+- [Self-supervised contrastive learning with SimSiam](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Self-supervised_contrastive_learning_with_SimSiam)
 
 ### Natural Language Processing
 
@@ -142,6 +143,7 @@ Original github address: https://github.com/keras-team/keras-io
 
 ### Adversarial Attacks
 
+- [Fast Gradient Sign Method](https://github.com/hwk0702/keras2torch/tree/main/Adversarial_Attack/Fast_Gradient_Sign_Method)
 - [Projected Gradient Descent](https://github.com/hwk0702/keras2torch/tree/main/Adversarial_Attack/Projected_Gradient_Descent)
 
 ### Pytorch Accelerator
