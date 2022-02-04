@@ -1,3 +1,3 @@
 **Author**: Tootouch (Jaehyuk Heo)
 
-# Gradient Accumulation
+# DDP
