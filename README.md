@@ -147,3 +147,5 @@ Original github address: https://github.com/keras-team/keras-io
 ### Pytorch Accelerator
 
 - [Automatic Mixed Precision](https://github.com/hwk0702/keras2torch/tree/main/Pytorch-Accelerator/AMP)
+- [Gradient Accumulation](https://github.com/hwk0702/keras2torch/tree/main/Pytorch-Accelerator/gradient_accumulation)
+- [Distributed Data Parallel](https://github.com/hwk0702/keras2torch/tree/main/Pytorch-Accelerator/DDP)
