@@ -1,0 +1,8 @@
+python main.py --exp-name 'sgd' --optim-name 'sgd'
+python main.py --exp-name 'sgd_gc' --optim-name 'sgd_gc'
+python main.py --exp-name 'sgdw' --optim-name 'sgdw'
+python main.py --exp-name 'sgdw_gc' --optim-name 'sgdw_gc'
+python main.py --exp-name 'adam' --optim-name 'adam'
+python main.py --exp-name 'adam_gc' --optim-name 'adam_gc'
+python main.py --exp-name 'adamw' --optim-name 'adamw'
+python main.py --exp-name 'adamw_gc' --optim-name 'adamw_gc'
