@@ -39,7 +39,7 @@ Original github address: https://github.com/keras-team/keras-io
 - Multiclass semantic segmentation using DeepLabV3+
 - [Monocular depth estimation](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Monocular_depth_estimation/Monocular_depth_estimation.ipynb)
 - [Grad-CAM class activation visualization](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Grad-CAM_class_activation_visualization/Grad-CAM%20class%20activation%20visualization%20HJH.ipynb)
-- Gradient Centralization for Better Training Performance
+- [Gradient Centralization for Better Training Performance](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Gradient_Centralization_for_Better_Training_Performance)
 - Image Captioning
 - [Image classification with Vision Transformer](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Image_classification_with_Vision_Transformer/Image%20classification%20with%20Vision%20Transformer.ipynb)
 - [Model interpretability with Integrated Gradients](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Model_Interpretability_with_Integrated_Gradients/Model%20interpretability%20with%20Integrated%20Gradients.ipynb)
@@ -59,7 +59,7 @@ Original github address: https://github.com/keras-team/keras-io
 - Few-Shot learning with Reptile
 - Object Detection with RetinaNet
 - Semantic Image Clustering
-- Semi-supervised image classification using contrastive pretraining with SimCLR
+- [Semi-supervised image classification using contrastive pretraining with SimCLR](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Semi-supervised%20image%20classification%20using%20contrastive%20pretraining%20with%20SimCLR)
 - Image similarity estimation using a Siamese Network with a contrastive loss
 - Image similarity estimation using a Siamese Network with a triplet loss
 - Image Super-Resolution using an Efficient Sub-Pixel CNN
@@ -88,11 +88,12 @@ Original github address: https://github.com/keras-team/keras-io
 
 ### Structured Data
 
-- Classification with Gated Residual and Variable Selection Networks
+- [Classification with Gated Residual and Variable Selection Networks](https://github.com/hwk0702/keras2torch/tree/main/Structured_Data/Classification_with_Gated_Residual_and_Variable_Selection_Networks)
 - [Collaborative Filtering for Movie Recommendations](https://github.com/hwk0702/keras2torch/blob/main/Structured_Data/Collaborative_Filtering_for_Movie_Recommendations/Collaborative_Filtering_for_Movie_Recommendations.ipynb)
 - Classification with Neural Decision Forests
 - Imbalanced classification: credit card fraud detection
-- [A Transformer-based recommendation system](https://github.com/hwk0702/keras2torch/blob/main/Structured_Data/Collaborative_Filtering_for_Movie_Recommendations/Collaborative_Filtering_for_Movie_Recommendations.ipynb)
+- [A Transformer-based recommendation system](https://github.com/hwk0702/keras2torch/blob/main/Structured_Data/Collaborative_Filtering_for_Movie_Recommendations/Collaborative_Filtering_for_Movie_Recommendations.ipynb
+- Structured data learning with TabTransformer
 - Structured data learning with Wide, Deep, and Cross networks
 
 ### Timeseries
