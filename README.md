@@ -92,7 +92,7 @@ Original github address: https://github.com/keras-team/keras-io
 - [Collaborative Filtering for Movie Recommendations](https://github.com/hwk0702/keras2torch/blob/main/Structured_Data/Collaborative_Filtering_for_Movie_Recommendations/Collaborative_Filtering_for_Movie_Recommendations.ipynb)
 - Classification with Neural Decision Forests
 - Imbalanced classification: credit card fraud detection
-- [A Transformer-based recommendation system](https://github.com/hwk0702/keras2torch/blob/main/Structured_Data/Collaborative_Filtering_for_Movie_Recommendations/Collaborative_Filtering_for_Movie_Recommendations.ipynb
+- [A Transformer-based recommendation system](https://github.com/hwk0702/keras2torch/blob/main/Structured_Data/Collaborative_Filtering_for_Movie_Recommendations/Collaborative_Filtering_for_Movie_Recommendations.ipynb)
 - Structured data learning with TabTransformer
 - Structured data learning with Wide, Deep, and Cross networks
 
