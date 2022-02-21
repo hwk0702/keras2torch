@@ -45,7 +45,7 @@ Original github address: https://github.com/keras-team/keras-io
 - Image classification with EANet (External Attention Transformer)
 - FixRes: Fixing train-test resolution discrepancy
 - [Grad-CAM class activation visualization](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Grad-CAM_class_activation_visualization/Grad-CAM%20class%20activation%20visualization%20HJH.ipynb)
-- [Gradient Centralization for Better Training Performance](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Gradient_Centralization_for_Better_Training_Performance
+- [Gradient Centralization for Better Training Performance](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Gradient_Centralization_for_Better_Training_Performance)
 - Handwriting recognition
 - Image Captioning
 - Image classification via fine-tuning with EfficientNet
