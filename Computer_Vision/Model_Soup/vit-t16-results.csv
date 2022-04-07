@@ -1,0 +1,8 @@
+acc,loss,ckp_path
+96.53,0.1119,./pytorch-cifar/checkpoint/vit_tiny_patch16_224_in21k_sgd_lr-0.003_seed-2.pth
+96.5,0.1153,./pytorch-cifar/checkpoint/vit_tiny_patch16_224_in21k_sgd_lr-0.003_seed-3.pth
+96.66,0.1097,./pytorch-cifar/checkpoint/vit_tiny_patch16_224_in21k_sgd_lr-0.003_seed-5.pth
+96.75,0.1131,./pytorch-cifar/checkpoint/vit_tiny_patch16_224_in21k_sgd_lr-0.003_seed-4.pth
+96.83,0.1095,./pytorch-cifar/checkpoint/vit_tiny_patch16_224_in21k_sgd_lr-0.003_seed-1.pth
+96.66,0.1095,./pytorch-cifar/checkpoint/vit_tiny_patch16_224_in21k_sgd_lr-0.003_seed-0.pth
+96.9,0.1061,soup
