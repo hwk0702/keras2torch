@@ -1,5 +1,7 @@
 # Model Soup
 
+- Author: Jaehyuk Heo (TooTouch)
+
 Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time ( [link](https://arxiv.org/abs/2203.05482) )
 
 
