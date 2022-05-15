@@ -15,7 +15,7 @@ Original github address: https://github.com/keras-team/keras-io
 ### Members
 
 
-수료생
+수료생(Previous members)
 
 |                 Hyeongwon               |                 Subin                |                   Yonggi                   |
 | :------------------------------------------: | :-----------------------------------------: | :----------------------------------------: |
@@ -23,7 +23,7 @@ Original github address: https://github.com/keras-team/keras-io
 |                   **[Github](https://github.com/hwk0702)**                   |                   **[Github](https://github.com/suubkiim)**                   |                   **[Github](https://github.com/animilux)**                   |
 
 
-참여자
+참여자(Current members)
 
 |              Jeongsub               |                   Jaehyuk                   |                   Yookyung                   |                   Sunwoo                   |                   Suzie                   |
 | :------------------------------------------: | :-----------------------------------------: | :----------------------------------------: | :---------------------------------------------: | :---------------------------------------------: |
