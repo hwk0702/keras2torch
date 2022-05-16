@@ -12,7 +12,10 @@
 </p>
 
 
-# Results
+# Experiments
+
+- dataset: CIFAR100
+- model: ViT-B/16 pretrained on ImageNet-1K / ImageNet-21K
 
 **Performance**
 
