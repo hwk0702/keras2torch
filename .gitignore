@@ -139,7 +139,7 @@ data/
 *.txt
 *.out
 Computer_Vision/*.json
-
+checkpoint/
 
 # logs
 logs/

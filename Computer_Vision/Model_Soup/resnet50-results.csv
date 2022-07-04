@@ -1,0 +1,8 @@
+acc,loss,ckp_path
+91.27,0.3062,./pytorch-cifar/checkpoint/resnet50d_sgd_lr-0.1_seed-4.pth
+91.35,0.3016,./pytorch-cifar/checkpoint/resnet50d_sgd_lr-0.1_seed-1.pth
+91.34,0.302,./pytorch-cifar/checkpoint/resnet50d_sgd_lr-0.1_seed-3.pth
+91.29,0.3015,./pytorch-cifar/checkpoint/resnet50d_sgd_lr-0.1_seed-2.pth
+91.35,0.3004,./pytorch-cifar/checkpoint/resnet50d_sgd_lr-0.1_seed-0.pth
+91.36,0.3071,./pytorch-cifar/checkpoint/resnet50d_sgd_lr-0.1_seed-5.pth
+91.27,0.3062,soup
