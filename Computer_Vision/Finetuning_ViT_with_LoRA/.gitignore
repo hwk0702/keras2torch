@@ -1,0 +1,4 @@
+# timm
+timm/*/*
+timm/*.py
+!timm/models/vision_transformer.py

@@ -8,19 +8,28 @@ Keras documentaion에 올라온 코드를 Pytorch로 코드 이전하는 스터�
 
 Original github address: https://github.com/keras-team/keras-io
 
-참여자: [강형원](https://github.com/hwk0702), [김수빈](https://github.com/suubkiim), [김정섭](https://github.com/jskim0406), [정용기](https://github.com/animilux), [허재혁](https://github.com/TooTouch), [고유경](https://github.com/yookyungkho)
-
-
 시작 일자: 2021.03.04(목)
 
 ---
 
 ### Members
 
-|                 Hyeongwon               |                 Subin                |              Jeongsub               |                   Yonggi                   |                   Jaehyuk                   |                   Yookyung                   |
-| :------------------------------------------: | :-----------------------------------------: | :----------------------------------------: | :---------------------------------------------: | :---------------------------------------------: | :-----------------------------------------: |
-| <img src="https://avatars.githubusercontent.com/u/31944451?s=400&u=5ee1388c2507ddddb5298eb608393032b4aad489&v=4" width=150px> | <img src="https://github.com/yukyunglee/Transformer_Survey_Study/blob/3254384e154ff2a3232a9fe723da36b1ceb92705/img/sb.png?raw=true" width=150px> | <img src="https://avatars.githubusercontent.com/u/63832233?v=4" width=150px> | <img src="https://avatars.githubusercontent.com/u/77085163?v=4" width=150px> | <img src="https://github.com/yukyunglee/Transformer_Survey_Study/blob/3254384e154ff2a3232a9fe723da36b1ceb92705/img/jh.png?raw=true" width=150px> | <img src="https://user-images.githubusercontent.com/68496320/141753962-0e4e5817-c549-4637-a13f-56f0d2e90e25.png" width=150px> |
-|                   **[Github](https://github.com/hwk0702)**                   |                   **[Github](https://github.com/suubkiim)**                   |               **[Github](https://github.com/jskim0406)**               |                   **[Github](https://github.com/animilux)**                   |                   **[Github](https://github.com/TooTouch)**                   |                   **[Github](https://github.com/yookyungkho)**                   |
+
+수료생(Previous members)
+
+|                 Hyeongwon               |                 Subin                |                   Yonggi                   |
+| :------------------------------------------: | :-----------------------------------------: | :----------------------------------------: |
+| <img src="https://avatars.githubusercontent.com/u/31944451?s=400&u=5ee1388c2507ddddb5298eb608393032b4aad489&v=4" width=150px> | <img src="https://github.com/yukyunglee/Transformer_Survey_Study/blob/3254384e154ff2a3232a9fe723da36b1ceb92705/img/sb.png?raw=true" width=150px> | <img src="https://user-images.githubusercontent.com/68496320/168459826-6d01c007-d545-45d5-9601-cbc493971540.png" width=150px> |
+|                   **[Github](https://github.com/hwk0702)**                   |                   **[Github](https://github.com/suubkiim)**                   |                   **[Github](https://github.com/animilux)**                   |
+
+
+참여자(Current members)
+
+|              Jeongsub               |                   Jaehyuk                   |                   Yookyung                   |                   Sunwoo                   |                   Suzie                   |
+| :------------------------------------------: | :-----------------------------------------: | :----------------------------------------: | :---------------------------------------------: | :---------------------------------------------: |
+| <img src="https://avatars.githubusercontent.com/u/63832233?v=4" width=150px> | <img src="https://github.com/yukyunglee/Transformer_Survey_Study/blob/3254384e154ff2a3232a9fe723da36b1ceb92705/img/jh.png?raw=true" width=150px> | <img src="https://user-images.githubusercontent.com/68496320/174434997-38cd9083-b359-4b25-9696-9369596335a3.png" width=150px> | <img src="https://user-images.githubusercontent.com/68496320/168459726-ac6ce3dc-eeb8-485c-a870-10af89efe102.png" width=150px> | <img src="https://user-images.githubusercontent.com/68496320/174434838-8c470e18-b51f-4551-ae68-4e8032664555.png" width=150px> |
+|               **[Github](https://github.com/jskim0406)**               |                   **[Github](https://github.com/TooTouch)**                   |                   **[Github](https://github.com/yookyungkho)**                   |                   **[Github](https://github.com/SunwooKimstar)**                   |                   **[Github](https://github.com/ohsuz)**                   |
+
 
 ---
 
@@ -93,12 +102,12 @@ Original github address: https://github.com/keras-team/keras-io
 - [Character-level recurrent sequence-to-sequence model](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Character-level_recurrent_sequence-to-sequence_model/Character_level_Machine_translator_with_seq2seq_KJS_3.ipynb) [Jeongseob Kim]
 - [End-to-end Masked Language Modeling with BERT](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/End-to-end_Masked_Language_Modeling_with_BERT/mlm_and_finetune_with_bert_KSB.ipynb)
 - Large-scale multi-label text classification
-- Multimodal entailment
+- [Multimodal entailment](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Multimodal_Entailment/multimodal_entailment_KYK.ipynb)
 - [Named Entity Recognition using Transformers](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Named_Entity_Recognition%20using_Transformers/NER_using_Transformers_KSB.ipynb)
 - [English-to-Spanish translation with a sequence-to-sequence Transformer](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Machine_Translation_via_seq2seq_Transformer/spn2eng_Translation_via_seq2seq_Transformer_KYK.ipynb)
 - [Natural language image search with a Dual Encoder](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Natural_language_image%20search_with_a_Dual_Encoder/nl_image_search_KSB.ipynb)
 - Using pre-trained word embeddings
-- Question Answering with Hugging Face Transformers
+- [Question Answering with Hugging Face Transformers](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Question_Answering_Huggingface/QA_huggingface_KYK.ipynb)
 - [Semantic Similarity with BERT](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Semantic_Similarity_with_BERT/Semantic_Similarity_with_BERT_HJH.ipynb)
 - Text classification with Switch Transformer
 - [Text classification with Transformer](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Text_Classification_with_Transformers/text_classification_with_transformers_KYK.ipynb)
