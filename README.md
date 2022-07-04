@@ -40,7 +40,7 @@ Original github address: https://github.com/keras-team/keras-io
 - 3D image classification from CT scans
 - Semi-supervision and domain adaptation with AdaMatch
 - Classification using Attention-based Deep Multiple Instance Learning (MIL).
-- Convolutional autoencoder for image denoising
+- [Convolutional autoencoder for image denoising](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Convolutional%20autoencoder%20for%20image%20denoising) [Jeongseob Kim]
 - Barlow Twins for Contrastive SSL
 - Image Classification using BigTransfer (BiT)
 - [OCR model for reading Captchas](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/OCR_model_for_reading_Captchas/captcha_ocr_KSB.ipynb)
