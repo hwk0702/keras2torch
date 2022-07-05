@@ -165,7 +165,7 @@ Original github address: https://github.com/keras-team/keras-io
 
 - [Distributions_TFP_Pyro](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Normalizing-Flow/Framework_practice/Distributions_TFP_Pyro) _[Jeongseob Kim]_
 - [Non-linear Independent Component Estimation (NICE)](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/Normalizing-Flow/NICE/NICE_codes.ipynb) _[Jeongseob Kim]_
-- [Diffusion generative model(Tutorials)](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Score_Diffusion/Tutorial) [Jeongseob Kim]
+- [Diffusion generative model(Tutorials)](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Score_Diffusion/Tutorial) _[Jeongseob Kim]_
 - [Diffusion generative model(Examples - Swiss-roll, MNIST, F-MNIST, CELEBA)](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Score_Diffusion/Diffusion) _[Jeongseob Kim]_
 - [Score based generative model(Tutorials)](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Score_Diffusion/Tutorial) _[Jeongseob Kim]_
 
