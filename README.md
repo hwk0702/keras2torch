@@ -40,7 +40,7 @@ Original github address: https://github.com/keras-team/keras-io
 - 3D image classification from CT scans
 - Semi-supervision and domain adaptation with AdaMatch
 - Classification using Attention-based Deep Multiple Instance Learning (MIL).
-- [Convolutional autoencoder for image denoising](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Convolutional%20autoencoder%20for%20image%20denoising) [Jeongseob Kim]
+- [Convolutional autoencoder for image denoising](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Convolutional%20autoencoder%20for%20image%20denoising) _[Jeongseob Kim]_
 - Barlow Twins for Contrastive SSL
 - Image Classification using BigTransfer (BiT)
 - [OCR model for reading Captchas](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/OCR_model_for_reading_Captchas/captcha_ocr_KSB.ipynb)
@@ -98,8 +98,8 @@ Original github address: https://github.com/keras-team/keras-io
 
 - Review Classification using Active Learning
 - Sequence to sequence learning for performing number addition
-- [Bidirectional LSTM on IMDB](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Bidirectional_LSTM_on_IMDB/Text_classification_with_bi-LSTM_KJS.ipynb) [Jeongseob Kim]
-- [Character-level recurrent sequence-to-sequence model](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Character-level_recurrent_sequence-to-sequence_model/Character_level_Machine_translator_with_seq2seq_KJS_3.ipynb) [Jeongseob Kim]
+- [Bidirectional LSTM on IMDB](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Bidirectional_LSTM_on_IMDB/Text_classification_with_bi-LSTM_KJS.ipynb) _[Jeongseob Kim]_
+- [Character-level recurrent sequence-to-sequence model](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Character-level_recurrent_sequence-to-sequence_model/Character_level_Machine_translator_with_seq2seq_KJS_3.ipynb) _[Jeongseob Kim]_
 - [End-to-end Masked Language Modeling with BERT](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/End-to-end_Masked_Language_Modeling_with_BERT/mlm_and_finetune_with_bert_KSB.ipynb)
 - Large-scale multi-label text classification
 - [Multimodal entailment](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Multimodal_Entailment/multimodal_entailment_KYK.ipynb)
@@ -115,7 +115,7 @@ Original github address: https://github.com/keras-team/keras-io
 - Text Generation using FNet
 
 #### Extra
-- [TorchText introduction](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Extra/TorchText_introduction_KJS.ipynb) [Jeongseob Kim]
+- [TorchText introduction](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Extra/TorchText_introduction_KJS.ipynb) _[Jeongseob Kim]_
 
 ### Structured Data
 
@@ -154,8 +154,8 @@ Original github address: https://github.com/keras-team/keras-io
 - Data-efficient GANs with Adaptive Discriminator Augmentation
 - GauGAN for conditional image generation
 - Character-level text generation with LSTM
-- [PixelCNN](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/PixclCNN/pixelcnn.ipynb) [Jeongseob Kim]
-- [Density estimation using Real NVP](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/Normalizing-Flow/RNVP/real-nvp-pytorch.ipynb) [Jeongseob Kim]
+- [PixelCNN](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/PixclCNN/pixelcnn.ipynb) _[Jeongseob Kim]_
+- [Density estimation using Real NVP](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/Normalizing-Flow/RNVP/real-nvp-pytorch.ipynb) _[Jeongseob Kim]_
 - Face image generation with StyleGAN
 - [Text generation with a miniature GPT](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/Text_generation_with_a_miniauture_GPT/Text_generation_with_a_miniauture_GPT_KSB.ipynb)
 - Vector-Quantized Variational Autoencoders
@@ -163,11 +163,11 @@ Original github address: https://github.com/keras-team/keras-io
 
 #### Extra
 
-- [Distributions_TFP_Pyro](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Normalizing-Flow/Framework_practice/Distributions_TFP_Pyro) [Jeongseob Kim]
-- [Non-linear Independent Component Estimation (NICE)](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/Normalizing-Flow/NICE/NICE_codes.ipynb) [Jeongseob Kim]
+- [Distributions_TFP_Pyro](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Normalizing-Flow/Framework_practice/Distributions_TFP_Pyro) _[Jeongseob Kim]_
+- [Non-linear Independent Component Estimation (NICE)](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/Normalizing-Flow/NICE/NICE_codes.ipynb) _[Jeongseob Kim]_
 - [Diffusion generative model(Tutorials)](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Score_Diffusion/Tutorial) [Jeongseob Kim]
-- [Diffusion generative model(Examples - Swiss-roll, MNIST, F-MNIST, CELEBA)](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Score_Diffusion/Diffusion) [Jeongseob Kim]
-- [Score based generative model(Tutorials)](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Score_Diffusion/Tutorial) [Jeongseob Kim]
+- [Diffusion generative model(Examples - Swiss-roll, MNIST, F-MNIST, CELEBA)](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Score_Diffusion/Diffusion) _[Jeongseob Kim]_
+- [Score based generative model(Tutorials)](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Score_Diffusion/Tutorial) _[Jeongseob Kim]_
 
 
 ### Reinforcement Learning
