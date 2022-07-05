@@ -36,7 +36,7 @@ Original github address: https://github.com/keras-team/keras-io
 ### 목록
 #### Computer Vision
 
-- [Image segmentation with a U-Net-like architecture](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Image_Segmentation_Unet_Xception/%5BKJS%5DImage%20segmentation%20with%20a%20U-Net-like%20architecture(torch).ipynb) [Jeongseob Kim]
+- [Image segmentation with a U-Net-like architecture](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Image_Segmentation_Unet_Xception/%5BKJS%5DImage%20segmentation%20with%20a%20U-Net-like%20architecture(torch).ipynb) _[Jeongseob Kim]_
 - 3D image classification from CT scans
 - Semi-supervision and domain adaptation with AdaMatch
 - Classification using Attention-based Deep Multiple Instance Learning (MIL).
