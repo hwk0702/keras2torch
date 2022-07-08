@@ -48,24 +48,24 @@ Original github address: https://github.com/keras-team/keras-io
 - Consistency training with supervision
 - Next-Frame Video Prediction with Convolutional
 - Image classification with ConvMixer
-- [CutMix data augmentation for image classification](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Augmentation/CutMix%20data%20augmentation%20for%20image%20classification.ipynb)
+- [CutMix data augmentation for image classification](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Augmentation/CutMix%20data%20augmentation%20for%20image%20classification.ipynb) _[Jaehyuk Heo]_
 - Multiclass semantic segmentation using DeepLabV3+
 - [Monocular depth estimation](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Monocular_depth_estimation/Monocular_depth_estimation.ipynb)
 - Image classification with EANet (External Attention Transformer)
 - FixRes: Fixing train-test resolution discrepancy
-- [Grad-CAM class activation visualization](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Grad-CAM_class_activation_visualization/Grad-CAM%20class%20activation%20visualization%20HJH.ipynb)
-- [Gradient Centralization for Better Training Performance](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Gradient_Centralization_for_Better_Training_Performance)
+- [Grad-CAM class activation visualization](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Grad-CAM_class_activation_visualization/Grad-CAM%20class%20activation%20visualization%20HJH.ipynb) _[Jaehyuk Heo]_
+- [Gradient Centralization for Better Training Performance] (https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Gradient_Centralization_for_Better_Training_Performance) _[Jaehyuk Heo]_
 - Handwriting recognition
 - Image Captioning
 - Image classification via fine-tuning with EfficientNet
-- [Image classification with Vision Transformer](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Image_classification_with_Vision_Transformer/Image%20classification%20with%20Vision%20Transformer.ipynb)
-- [Model interpretability with Integrated Gradients](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Model_Interpretability_with_Integrated_Gradients/Model%20interpretability%20with%20Integrated%20Gradients.ipynb)
+- [Image classification with Vision Transformer](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Image_classification_with_Vision_Transformer/Image%20classification%20with%20Vision%20Transformer.ipynb) _[Jaehyuk Heo]_
+- [Model interpretability with Integrated Gradients](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Model_Interpretability_with_Integrated_Gradients/Model%20interpretability%20with%20Integrated%20Gradients.ipynb) _[Jaehyuk Heo]_
 - [Involutional neural networks](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Involutional%20neural%20networks/Involutional%20neural%20networks.ipynb)
 - Keypoint Detection with Transfer Learning
-- [Knowledge Distillation](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Knowledge_Distillation/Knowledge%20Distillation%20HJH.ipynb)
+- [Knowledge Distillation](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Knowledge_Distillation/Knowledge%20Distillation%20HJH.ipynb) _[Jaehyuk Heo]_
 - Learning to Resize in Computer Vision
 - Masked image modeling with Autoencoders
-- [Metric learning for image similarity search](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Metric_Learning_for_Image_Similarity_Search/Metric%20learning%20for%20image%20similarity%20search%20HJH.ipynb)
+- [Metric learning for image similarity search](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Metric_Learning_for_Image_Similarity_Search/Metric%20learning%20for%20image%20similarity%20search%20HJH.ipynb) _[Jaehyuk Heo]_
 - Low-light image enhancement using MIRNet
 - MixUp augmentation for image classification
 - Image classification with modern MLP models
@@ -79,20 +79,22 @@ Original github address: https://github.com/keras-team/keras-io
 - [Point cloud segmentation with PointNet](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Point_cloud_segmentation_with_PointNet/Point_cloud_segmentation_with_PointNet.ipynb)
 - RandAugment for Image Classification for Improved Robustness
 - Few-Shot learning with Reptile
-- Object Detection with RetinaNet
+- [Object Detection with RetinaNet](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Object_Detection_with_RetinaNet) _[Jaehyuk Heo]_
 - Semantic Image Clustering
 - [Semi-supervised image classification using contrastive pretraining with SimCLR](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Semi-supervised%20image%20classification%20using%20contrastive%20pretraining%20with%20SimCLR)
 - Image similarity estimation using a Siamese Network with a contrastive loss
 - Image similarity estimation using a Siamese Network with a triplet loss
-- [Self-supervised contrastive learning with SimSiam](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Self-supervised_contrastive_learning_with_SimSiam)
+- [Self-supervised contrastive learning with SimSiam](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Self-supervised_contrastive_learning_with_SimSiam) _[Jaehyuk Heo]_
 - Image Super-Resolution using an Efficient Sub-Pixel CNN
 - Supervised Contrastive Learning
 - Image classification with Swin Transformers
 - Learning to tokenize in Vision Transformers
 - [Video Classification with Transformers](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Video_Classification_with_Transformers/Video_Classification_with_Transformers.ipynb) + [Video Vision Transformer](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Video_Classification_with_Transformers/ViViT.ipynb)
-- [Visualizing what convnets learn](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Visualizing_what_convnets_learn)
+- [Visualizing what convnets learn](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Visualizing_what_convnets_learn) _[Jaehyuk Heo]_
 - Train a Vision Transformer on small datasets
 - Zero-DCE for low-light image enhancement
+- [Model Soup](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Model_Soup) _[Jaehyuk Heo]_
+- [Finetuning ViT with LoRA](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Finetuning_ViT_with_LoRA) _[Jaehyuk Heo]_
 
 ### Natural Language Processing
 
@@ -108,10 +110,10 @@ Original github address: https://github.com/keras-team/keras-io
 - [Natural language image search with a Dual Encoder](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Natural_language_image%20search_with_a_Dual_Encoder/nl_image_search_KSB.ipynb)
 - Using pre-trained word embeddings
 - [Question Answering with Hugging Face Transformers](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Question_Answering_Huggingface/QA_huggingface_KYK.ipynb) _[Yookyung Kho]_
-- [Semantic Similarity with BERT](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Semantic_Similarity_with_BERT/Semantic_Similarity_with_BERT_HJH.ipynb)
+- [Semantic Similarity with BERT](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Semantic_Similarity_with_BERT/Semantic_Similarity_with_BERT_HJH.ipynb) _[Jaehyuk Heo]_
 - Text classification with Switch Transformer
 - [Text classification with Transformer](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Text_Classification_with_Transformers/text_classification_with_transformers_KYK.ipynb) _[Yookyung Kho]_
-- [Text Extraction with BERT](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Text_Extraction_with_BERT/Text_Extraction_with_BERT_HJH.ipynb)
+- [Text Extraction with BERT](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Text_Extraction_with_BERT/Text_Extraction_with_BERT_HJH.ipynb) _[Jaehyuk Heo]_
 - Text Generation using FNet
 
 #### Extra
@@ -143,11 +145,11 @@ Original github address: https://github.com/keras-team/keras-io
 
 ### Generative Deep Learning
 
-- [Variational AutoEncoder](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Variational_AutoEncoder)
+- [Variational AutoEncoder](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Variational_AutoEncoder) _[Jaehyuk Heo]_
 - [DCGAN to generate face images](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/DCGAN_to_generate_face_images/DCGAN_to_generate_face_images.ipynb)
 - WGAN-GP overriding Model.train_step
 - [Neural style transfer](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/Neural_style_transfer/Neural_style_transfer.ipynb)
-- [Deep Dream](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Deep_Dream)
+- [Deep Dream](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Deep_Dream) _[Jaehyuk Heo]_
 - Neural Style Transfer with AdaIN
 - [Conditional GAN](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Conditional_GAN)
 - [CycleGAN](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/CycleGAN)
@@ -186,11 +188,11 @@ Original github address: https://github.com/keras-team/keras-io
 
 ### Adversarial Attacks
 
-- [Fast Gradient Sign Method](https://github.com/hwk0702/keras2torch/tree/main/Adversarial_Attack/Fast_Gradient_Sign_Method)
-- [Projected Gradient Descent](https://github.com/hwk0702/keras2torch/tree/main/Adversarial_Attack/Projected_Gradient_Descent)
+- [Fast Gradient Sign Method](https://github.com/hwk0702/keras2torch/tree/main/Adversarial_Attack/Fast_Gradient_Sign_Method) _[Jaehyuk Heo]_
+- [Projected Gradient Descent](https://github.com/hwk0702/keras2torch/tree/main/Adversarial_Attack/Projected_Gradient_Descent) _[Jaehyuk Heo]_
 
 ### Pytorch Accelerator
 
-- [Automatic Mixed Precision](https://github.com/hwk0702/keras2torch/tree/main/Pytorch-Accelerator/AMP)
-- [Gradient Accumulation](https://github.com/hwk0702/keras2torch/tree/main/Pytorch-Accelerator/gradient_accumulation)
-- [Distributed Data Parallel](https://github.com/hwk0702/keras2torch/tree/main/Pytorch-Accelerator/DDP)
+- [Automatic Mixed Precision](https://github.com/hwk0702/keras2torch/tree/main/Pytorch-Accelerator/AMP) _[Jaehyuk Heo]_ 
+- [Gradient Accumulation](https://github.com/hwk0702/keras2torch/tree/main/Pytorch-Accelerator/gradient_accumulation) _[Jaehyuk Heo]_
+- [Distributed Data Parallel](https://github.com/hwk0702/keras2torch/tree/main/Pytorch-Accelerator/DDP) _[Jaehyuk Heo]_
