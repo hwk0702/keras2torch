@@ -56,7 +56,7 @@ Original github address: https://github.com/keras-team/keras-io
 - [Grad-CAM class activation visualization](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Grad-CAM_class_activation_visualization/Grad-CAM%20class%20activation%20visualization%20HJH.ipynb) _[Jaehyuk Heo]_
 - [Gradient Centralization for Better Training Performance] (https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Gradient_Centralization_for_Better_Training_Performance) _[Jaehyuk Heo]_
 - Handwriting recognition
-- [Image Captioning]() _[Yonggi Jeong]_
+- Image Captioning _[Yonggi Jeong]_
 - Image classification via fine-tuning with EfficientNet
 - [Image classification with Vision Transformer](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Image_classification_with_Vision_Transformer/Image%20classification%20with%20Vision%20Transformer.ipynb) _[Jaehyuk Heo]_
 - [Model interpretability with Integrated Gradients](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Model_Interpretability_with_Integrated_Gradients/Model%20interpretability%20with%20Integrated%20Gradients.ipynb) _[Jaehyuk Heo]_
@@ -80,7 +80,7 @@ Original github address: https://github.com/keras-team/keras-io
 - [RandAugment for Image Classification for Improved Robustness](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Augmentation/RandAugment/RandAugment.ipynb) _[Yonggi Jeong]_
 - Few-Shot learning with Reptile
 - [Object Detection with RetinaNet](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Object_Detection_with_RetinaNet) _[Jaehyuk Heo]_
-- [Semantic Image Clustering]() _[Yonggi Jeong]_
+- Semantic Image Clustering _[Yonggi Jeong]_
 - [Semi-supervised image classification using contrastive pretraining with SimCLR](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Semi-supervised%20image%20classification%20using%20contrastive%20pretraining%20with%20SimCLR) _[Subin Kim]_
 - Image similarity estimation using a Siamese Network with a contrastive loss
 - [Image similarity estimation using a Siamese Network with a triplet loss](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Triplet_loss/triplet_loss.ipynb) _[Yonggi Jeong]_
@@ -111,7 +111,7 @@ Original github address: https://github.com/keras-team/keras-io
 - Using pre-trained word embeddings
 - [Question Answering with Hugging Face Transformers](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Question_Answering_Huggingface/QA_huggingface_KYK.ipynb) _[Yookyung Kho]_
 - [Semantic Similarity with BERT](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Semantic_Similarity_with_BERT/Semantic_Similarity_with_BERT_HJH.ipynb) _[Jaehyuk Heo]_
-- Text classification with Switch Transformer  _[Subin Kim]_
+- Text classification with Switch Transformer _[Subin Kim]_
 - [Text classification with Transformer](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Text_Classification_with_Transformers/text_classification_with_transformers_KYK.ipynb) _[Yookyung Kho]_
 - [Text Extraction with BERT](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Text_Extraction_with_BERT/Text_Extraction_with_BERT_HJH.ipynb) _[Jaehyuk Heo]_
 - Text Generation using FNet
