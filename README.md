@@ -80,7 +80,7 @@ Original github address: https://github.com/keras-team/keras-io
 - [RandAugment for Image Classification for Improved Robustness](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Augmentation/RandAugment/RandAugment.ipynb) _[Yonggi Jeong]_
 - Few-Shot learning with Reptile
 - [Object Detection with RetinaNet](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Object_Detection_with_RetinaNet) _[Jaehyuk Heo]_
-- Semantic Image Clustering _[Yonggi Jeong]_
+- [Semantic Image Clustering](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Semantic_Image_Clustering/image_clustering.ipynb) _[Yonggi Jeong]_
 - [Semi-supervised image classification using contrastive pretraining with SimCLR](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Semi-supervised%20image%20classification%20using%20contrastive%20pretraining%20with%20SimCLR) _[Subin Kim]_
 - Image similarity estimation using a Siamese Network with a contrastive loss
 - [Image similarity estimation using a Siamese Network with a triplet loss](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Triplet_loss/triplet_loss.ipynb) _[Yonggi Jeong]_
