@@ -43,7 +43,7 @@ Original github address: https://github.com/keras-team/keras-io
 - [Convolutional autoencoder for image denoising](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Convolutional%20autoencoder%20for%20image%20denoising) _[Jeongseob Kim]_
 - Barlow Twins for Contrastive SSL
 - Image Classification using BigTransfer (BiT)
-- [OCR model for reading Captchas](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/OCR_model_for_reading_Captchas/captcha_ocr_KSB.ipynb)
+- [OCR model for reading Captchas](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/OCR_model_for_reading_Captchas/captcha_ocr_KSB.ipynb) _[Subin Kim]_
 - Compact Convolutional Transformers
 - Consistency training with supervision
 - Next-Frame Video Prediction with Convolutional
@@ -56,11 +56,11 @@ Original github address: https://github.com/keras-team/keras-io
 - [Grad-CAM class activation visualization](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Grad-CAM_class_activation_visualization/Grad-CAM%20class%20activation%20visualization%20HJH.ipynb) _[Jaehyuk Heo]_
 - [Gradient Centralization for Better Training Performance] (https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Gradient_Centralization_for_Better_Training_Performance) _[Jaehyuk Heo]_
 - Handwriting recognition
-- Image Captioning
+- [Image Captioning]() _[Yonggi Jeong]_
 - Image classification via fine-tuning with EfficientNet
 - [Image classification with Vision Transformer](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Image_classification_with_Vision_Transformer/Image%20classification%20with%20Vision%20Transformer.ipynb) _[Jaehyuk Heo]_
 - [Model interpretability with Integrated Gradients](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Model_Interpretability_with_Integrated_Gradients/Model%20interpretability%20with%20Integrated%20Gradients.ipynb) _[Jaehyuk Heo]_
-- [Involutional neural networks](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Involutional%20neural%20networks/Involutional%20neural%20networks.ipynb)
+- [Involutional neural networks](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Involutional%20neural%20networks/Involutional%20neural%20networks.ipynb) _[Subin Kim]_
 - Keypoint Detection with Transfer Learning
 - [Knowledge Distillation](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Knowledge_Distillation/Knowledge%20Distillation%20HJH.ipynb) _[Jaehyuk Heo]_
 - Learning to Resize in Computer Vision
@@ -77,16 +77,16 @@ Original github address: https://github.com/keras-team/keras-io
 - Image classification with Perceiver
 - [Point cloud classification with PointNet](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Point_cloud_classification/Point_cloud_classification.ipynb) _[Hyeongwon Kang]_
 - [Point cloud segmentation with PointNet](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Point_cloud_segmentation_with_PointNet/Point_cloud_segmentation_with_PointNet.ipynb) _[Hyeongwon Kang]_
-- RandAugment for Image Classification for Improved Robustness
+- [RandAugment for Image Classification for Improved Robustness](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Augmentation/RandAugment/RandAugment.ipynb) _[Yonggi Jeong]_
 - Few-Shot learning with Reptile
 - [Object Detection with RetinaNet](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Object_Detection_with_RetinaNet) _[Jaehyuk Heo]_
-- Semantic Image Clustering
-- [Semi-supervised image classification using contrastive pretraining with SimCLR](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Semi-supervised%20image%20classification%20using%20contrastive%20pretraining%20with%20SimCLR)
+- [Semantic Image Clustering]() _[Yonggi Jeong]_
+- [Semi-supervised image classification using contrastive pretraining with SimCLR](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Semi-supervised%20image%20classification%20using%20contrastive%20pretraining%20with%20SimCLR) _[Subin Kim]_
 - Image similarity estimation using a Siamese Network with a contrastive loss
-- Image similarity estimation using a Siamese Network with a triplet loss
+- [Image similarity estimation using a Siamese Network with a triplet loss](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Triplet_loss/triplet_loss.ipynb) _[Yonggi Jeong]_
 - [Self-supervised contrastive learning with SimSiam](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Self-supervised_contrastive_learning_with_SimSiam) _[Jaehyuk Heo]_
 - Image Super-Resolution using an Efficient Sub-Pixel CNN
-- Supervised Contrastive Learning
+- [Supervised Contrastive Learning](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Supervised_contrastive_learning/supervised_contrastive_learning.ipynb) _[Subin Kim]_
 - Image classification with Swin Transformers
 - Learning to tokenize in Vision Transformers
 - [Video Classification with Transformers](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Video_Classification_with_Transformers/Video_Classification_with_Transformers.ipynb) + [Video Vision Transformer](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Video_Classification_with_Transformers/ViViT.ipynb) _[Hyeongwon Kang]_
@@ -102,16 +102,16 @@ Original github address: https://github.com/keras-team/keras-io
 - [Sequence to sequence learning for performing number addition](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Seq2seq_Number_Addition/seq2seq_number_addition_KYK.ipynb) _[Yookyung Kho]_
 - [Bidirectional LSTM on IMDB](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Bidirectional_LSTM_on_IMDB/Text_classification_with_bi-LSTM_KJS.ipynb) _[Jeongseob Kim]_
 - [Character-level recurrent sequence-to-sequence model](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Character-level_recurrent_sequence-to-sequence_model/Character_level_Machine_translator_with_seq2seq_KJS_3.ipynb) _[Jeongseob Kim]_
-- [End-to-end Masked Language Modeling with BERT](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/End-to-end_Masked_Language_Modeling_with_BERT/mlm_and_finetune_with_bert_KSB.ipynb)
+- [End-to-end Masked Language Modeling with BERT](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/End-to-end_Masked_Language_Modeling_with_BERT/mlm_and_finetune_with_bert_KSB.ipynb) _[Subin Kim]_
 - Large-scale multi-label text classification
 - [Multimodal entailment](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Multimodal_Entailment/multimodal_entailment_KYK.ipynb) _[Yookyung Kho]_
-- [Named Entity Recognition using Transformers](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Named_Entity_Recognition%20using_Transformers/NER_using_Transformers_KSB.ipynb)
+- [Named Entity Recognition using Transformers](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Named_Entity_Recognition%20using_Transformers/NER_using_Transformers_KSB.ipynb) _[Subin Kim]_
 - [English-to-Spanish translation with a sequence-to-sequence Transformer](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Machine_Translation_via_seq2seq_Transformer/spn2eng_Translation_via_seq2seq_Transformer_KYK.ipynb) _[Yookyung Kho]_
-- [Natural language image search with a Dual Encoder](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Natural_language_image%20search_with_a_Dual_Encoder/nl_image_search_KSB.ipynb)
+- [Natural language image search with a Dual Encoder](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Natural_language_image%20search_with_a_Dual_Encoder/nl_image_search_KSB.ipynb) _[Subin Kim]_
 - Using pre-trained word embeddings
 - [Question Answering with Hugging Face Transformers](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Question_Answering_Huggingface/QA_huggingface_KYK.ipynb) _[Yookyung Kho]_
 - [Semantic Similarity with BERT](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Semantic_Similarity_with_BERT/Semantic_Similarity_with_BERT_HJH.ipynb) _[Jaehyuk Heo]_
-- Text classification with Switch Transformer
+- Text classification with Switch Transformer  _[Subin Kim]_
 - [Text classification with Transformer](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Text_Classification_with_Transformers/text_classification_with_transformers_KYK.ipynb) _[Yookyung Kho]_
 - [Text Extraction with BERT](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Text_Extraction_with_BERT/Text_Extraction_with_BERT_HJH.ipynb) _[Jaehyuk Heo]_
 - Text Generation using FNet
@@ -140,7 +140,7 @@ Original github address: https://github.com/keras-team/keras-io
 
 - Automatic Speech Recognition using CTC
 - MelGAN-based spectrogram inversion using feature matching
-- [Speaker Recognition](https://github.com/hwk0702/keras2torch/blob/main/Audio_Data/Speaker%20Recognition.ipynb)
+- [Speaker Recognition](https://github.com/hwk0702/keras2torch/blob/main/Audio_Data/Speaker%20Recognition.ipynb) _[Subin Kim]_
 - Automatic Speech Recognition with Transformer
 
 ### Generative Deep Learning
@@ -148,18 +148,18 @@ Original github address: https://github.com/keras-team/keras-io
 - [Variational AutoEncoder](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Variational_AutoEncoder) _[Jaehyuk Heo]_
 - [DCGAN to generate face images](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/DCGAN_to_generate_face_images/DCGAN_to_generate_face_images.ipynb) _[Hyeongwon Kang]_
 - WGAN-GP overriding Model.train_step
-- [Neural style transfer](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/Neural_style_transfer/Neural_style_transfer.ipynb)
+- [Neural style transfer](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/Neural_style_transfer/Neural_style_transfer.ipynb) _[Subin Kim]_
 - [Deep Dream](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Deep_Dream) _[Jaehyuk Heo]_
 - Neural Style Transfer with AdaIN
-- [Conditional GAN](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Conditional_GAN)
-- [CycleGAN](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/CycleGAN)
+- [Conditional GAN](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Conditional_GAN) _[Yonggi Jeong]_
+- [CycleGAN](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/CycleGAN) _[Yonggi Jeong]_
 - Data-efficient GANs with Adaptive Discriminator Augmentation
 - GauGAN for conditional image generation
 - Character-level text generation with LSTM
 - [PixelCNN](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/PixclCNN/pixelcnn.ipynb) _[Jeongseob Kim]_
 - [Density estimation using Real NVP](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/Normalizing-Flow/RNVP/real-nvp-pytorch.ipynb) _[Jeongseob Kim]_
 - Face image generation with StyleGAN
-- [Text generation with a miniature GPT](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/Text_generation_with_a_miniauture_GPT/Text_generation_with_a_miniauture_GPT_KSB.ipynb)
+- [Text generation with a miniature GPT](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/Text_generation_with_a_miniauture_GPT/Text_generation_with_a_miniauture_GPT_KSB.ipynb) _[Subin Kim]_
 - Vector-Quantized Variational Autoencoders
 - WGAN-GP with R-GCN for the generation of small molecular graphs
 
