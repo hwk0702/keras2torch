@@ -50,7 +50,7 @@ Original github address: https://github.com/keras-team/keras-io
 - Image classification with ConvMixer
 - [CutMix data augmentation for image classification](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Augmentation/CutMix%20data%20augmentation%20for%20image%20classification.ipynb) _[Jaehyuk Heo]_
 - Multiclass semantic segmentation using DeepLabV3+
-- [Monocular depth estimation](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Monocular_depth_estimation/Monocular_depth_estimation.ipynb)
+- [Monocular depth estimation](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Monocular_depth_estimation/Monocular_depth_estimation.ipynb) _[Hyeongwon Kang]_
 - Image classification with EANet (External Attention Transformer)
 - FixRes: Fixing train-test resolution discrepancy
 - [Grad-CAM class activation visualization](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Grad-CAM_class_activation_visualization/Grad-CAM%20class%20activation%20visualization%20HJH.ipynb) _[Jaehyuk Heo]_
@@ -75,8 +75,8 @@ Original github address: https://github.com/keras-team/keras-io
 - Self-supervised contrastive learning with NNCLR
 - Augmenting convnets with aggregated attention
 - Image classification with Perceiver
-- [Point cloud classification with PointNet](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Point_cloud_classification/Point_cloud_classification.ipynb)
-- [Point cloud segmentation with PointNet](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Point_cloud_segmentation_with_PointNet/Point_cloud_segmentation_with_PointNet.ipynb)
+- [Point cloud classification with PointNet](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Point_cloud_classification/Point_cloud_classification.ipynb) _[Hyeongwon Kang]_
+- [Point cloud segmentation with PointNet](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Point_cloud_segmentation_with_PointNet/Point_cloud_segmentation_with_PointNet.ipynb) _[Hyeongwon Kang]_
 - RandAugment for Image Classification for Improved Robustness
 - Few-Shot learning with Reptile
 - [Object Detection with RetinaNet](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Object_Detection_with_RetinaNet) _[Jaehyuk Heo]_
@@ -89,7 +89,7 @@ Original github address: https://github.com/keras-team/keras-io
 - Supervised Contrastive Learning
 - Image classification with Swin Transformers
 - Learning to tokenize in Vision Transformers
-- [Video Classification with Transformers](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Video_Classification_with_Transformers/Video_Classification_with_Transformers.ipynb) + [Video Vision Transformer](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Video_Classification_with_Transformers/ViViT.ipynb)
+- [Video Classification with Transformers](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Video_Classification_with_Transformers/Video_Classification_with_Transformers.ipynb) + [Video Vision Transformer](https://github.com/hwk0702/keras2torch/blob/main/Computer_Vision/Video_Classification_with_Transformers/ViViT.ipynb) _[Hyeongwon Kang]_
 - [Visualizing what convnets learn](https://github.com/hwk0702/keras2torch/tree/main/Computer_Vision/Visualizing_what_convnets_learn) _[Jaehyuk Heo]_
 - Train a Vision Transformer on small datasets
 - Zero-DCE for low-light image enhancement
@@ -121,18 +121,18 @@ Original github address: https://github.com/keras-team/keras-io
 
 ### Structured Data
 
-- [Classification with Gated Residual and Variable Selection Networks](https://github.com/hwk0702/keras2torch/tree/main/Structured_Data/Classification_with_Gated_Residual_and_Variable_Selection_Networks)
-- [Collaborative Filtering for Movie Recommendations](https://github.com/hwk0702/keras2torch/blob/main/Structured_Data/Collaborative_Filtering_for_Movie_Recommendations/Collaborative_Filtering_for_Movie_Recommendations.ipynb)
+- [Classification with Gated Residual and Variable Selection Networks](https://github.com/hwk0702/keras2torch/tree/main/Structured_Data/Classification_with_Gated_Residual_and_Variable_Selection_Networks) _[Hyeongwon Kang]_
+- [Collaborative Filtering for Movie Recommendations](https://github.com/hwk0702/keras2torch/blob/main/Structured_Data/Collaborative_Filtering_for_Movie_Recommendations/Collaborative_Filtering_for_Movie_Recommendations.ipynb) _[Hyeongwon Kang]_
 - Classification with Neural Decision Forests
 - Imbalanced classification: credit card fraud detection
-- [A Transformer-based recommendation system](https://github.com/hwk0702/keras2torch/blob/main/Structured_Data/Collaborative_Filtering_for_Movie_Recommendations/Collaborative_Filtering_for_Movie_Recommendations.ipynb)
-- [Structured data learning with TabTransformer](https://github.com/hwk0702/keras2torch/tree/main/Structured_Data/Structured_data_learning_with_TabTransformer)
+- [A Transformer-based recommendation system](https://github.com/hwk0702/keras2torch/blob/main/Structured_Data/Collaborative_Filtering_for_Movie_Recommendations/Collaborative_Filtering_for_Movie_Recommendations.ipynb) _[Hyeongwon Kang]_
+- [Structured data learning with TabTransformer](https://github.com/hwk0702/keras2torch/tree/main/Structured_Data/Structured_data_learning_with_TabTransformer) _[Hyeongwon Kang]_
 - Structured data learning with Wide, Deep, and Cross networks
 
 ### Timeseries
 
-- [Timeseries anomaly detection using an Autoencoder](https://github.com/hwk0702/keras2torch/blob/main/Timeseries/Timeseries_anomaly_detection_using_an_Autoencoder/Timeseries_anomaly_detection_using_an_Autoencoder.ipynb)
-- [Timeseries classification with a Transformer model](https://github.com/hwk0702/keras2torch/blob/main/Timeseries/Timeseries_classification_with_a_Transformer_model/Timeseries_classification_with_a_Transformer_model.ipynb)
+- [Timeseries anomaly detection using an Autoencoder](https://github.com/hwk0702/keras2torch/blob/main/Timeseries/Timeseries_anomaly_detection_using_an_Autoencoder/Timeseries_anomaly_detection_using_an_Autoencoder.ipynb) _[Hyeongwon Kang]_
+- [Timeseries classification with a Transformer model](https://github.com/hwk0702/keras2torch/blob/main/Timeseries/Timeseries_classification_with_a_Transformer_model/Timeseries_classification_with_a_Transformer_model.ipynb) _[Hyeongwon Kang]_
 - Traffic forecasting using graph neural networks and LSTM
 - [Timeseries forecasting for weather prediction](https://github.com/hwk0702/keras2torch/tree/main/Timeseries/Timeseries_forecasting_for_weather_prediction)
 
@@ -146,7 +146,7 @@ Original github address: https://github.com/keras-team/keras-io
 ### Generative Deep Learning
 
 - [Variational AutoEncoder](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Variational_AutoEncoder) _[Jaehyuk Heo]_
-- [DCGAN to generate face images](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/DCGAN_to_generate_face_images/DCGAN_to_generate_face_images.ipynb)
+- [DCGAN to generate face images](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/DCGAN_to_generate_face_images/DCGAN_to_generate_face_images.ipynb) _[Hyeongwon Kang]_
 - WGAN-GP overriding Model.train_step
 - [Neural style transfer](https://github.com/hwk0702/keras2torch/blob/main/Generative_Deep_Learning/Neural_style_transfer/Neural_style_transfer.ipynb)
 - [Deep Dream](https://github.com/hwk0702/keras2torch/tree/main/Generative_Deep_Learning/Deep_Dream) _[Jaehyuk Heo]_
@@ -174,10 +174,10 @@ Original github address: https://github.com/keras-team/keras-io
 
 ### Reinforcement Learning
 
-- [Actor Critic Method](https://github.com/hwk0702/keras2torch/blob/main/Reinforcement_Learning/Actor_Critic_Method/Actor_Critic_Method_KHW.ipynb)
-- [Deep Deterministic Policy Gradient (DDPG)](https://github.com/hwk0702/keras2torch/blob/main/Reinforcement_Learning/DDPG/DDPG.ipynb)
-- [Deep Q-Learning for Atari Breakout](https://github.com/hwk0702/keras2torch/blob/main/Reinforcement_Learning/Deep_Q_Learning_for_Atari_Breakout/Deep_Q_Learning_for_Atari_Breakout_KHW.ipynb)
-- [Proximal Policy Optimization](https://github.com/hwk0702/keras2torch/blob/main/Reinforcement_Learning/Proximal_Policy_Optimization/Proximal_Policy_Optimization.ipynb)
+- [Actor Critic Method](https://github.com/hwk0702/keras2torch/blob/main/Reinforcement_Learning/Actor_Critic_Method/Actor_Critic_Method_KHW.ipynb) _[Hyeongwon Kang]_
+- [Deep Deterministic Policy Gradient (DDPG)](https://github.com/hwk0702/keras2torch/blob/main/Reinforcement_Learning/DDPG/DDPG.ipynb) _[Hyeongwon Kang]_
+- [Deep Q-Learning for Atari Breakout](https://github.com/hwk0702/keras2torch/blob/main/Reinforcement_Learning/Deep_Q_Learning_for_Atari_Breakout/Deep_Q_Learning_for_Atari_Breakout_KHW.ipynb) _[Hyeongwon Kang]_
+- [Proximal Policy Optimization](https://github.com/hwk0702/keras2torch/blob/main/Reinforcement_Learning/Proximal_Policy_Optimization/Proximal_Policy_Optimization.ipynb) _[Hyeongwon Kang]_
 
 ### Graph Data
 
