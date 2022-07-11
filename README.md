@@ -134,7 +134,7 @@ Original github address: https://github.com/keras-team/keras-io
 - [Timeseries anomaly detection using an Autoencoder](https://github.com/hwk0702/keras2torch/blob/main/Timeseries/Timeseries_anomaly_detection_using_an_Autoencoder/Timeseries_anomaly_detection_using_an_Autoencoder.ipynb) _[Hyeongwon Kang]_
 - [Timeseries classification with a Transformer model](https://github.com/hwk0702/keras2torch/blob/main/Timeseries/Timeseries_classification_with_a_Transformer_model/Timeseries_classification_with_a_Transformer_model.ipynb) _[Hyeongwon Kang]_
 - Traffic forecasting using graph neural networks and LSTM
-- [Timeseries forecasting for weather prediction](https://github.com/hwk0702/keras2torch/tree/main/Timeseries/Timeseries_forecasting_for_weather_prediction)
+- [Timeseries forecasting for weather prediction](https://github.com/hwk0702/keras2torch/tree/main/Timeseries/Timeseries_forecasting_for_weather_prediction) _[Hyeongwon Kang]_
 
 ### Audio Data
 
