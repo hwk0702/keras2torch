@@ -191,6 +191,10 @@ Original github address: https://github.com/keras-team/keras-io
 - [Fast Gradient Sign Method](https://github.com/hwk0702/keras2torch/tree/main/Adversarial_Attack/Fast_Gradient_Sign_Method) _[Jaehyuk Heo]_
 - [Projected Gradient Descent](https://github.com/hwk0702/keras2torch/tree/main/Adversarial_Attack/Projected_Gradient_Descent) _[Jaehyuk Heo]_
 
+### Anomaly Detection
+
+- [PatchCore](https://github.com/hwk0702/keras2torch/tree/main/Anomaly_Detection/PatchCore) _[Jaehyuk Heo]_
+
 ### Pytorch Accelerator
 
 - [Automatic Mixed Precision](https://github.com/hwk0702/keras2torch/tree/main/Pytorch-Accelerator/AMP) _[Jaehyuk Heo]_ 
