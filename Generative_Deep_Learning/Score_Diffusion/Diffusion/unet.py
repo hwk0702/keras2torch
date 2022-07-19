@@ -27,7 +27,7 @@ from typing import Optional, Tuple, Union, List
 import torch
 from torch import nn
 
-from labml_helpers import Module
+from labml_module import Module
 
 
 class Swish(Module):
