@@ -118,6 +118,8 @@ Original github address: https://github.com/keras-team/keras-io
 
 #### Extra
 - [TorchText introduction](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Extra/TorchText_introduction_KJS.ipynb) _[Jeongseob Kim]_
+- [Table Pre-training with TapasForMaskedLM](https://github.com/hwk0702/keras2torch/blob/main/Natural_Language_Processing/Table_pretraining_with_TAPAS/Table_Pretraining_with_TapasForMaskedLM_KYK.ipynb) _[Yookyung Kho]_
+
 
 ### Structured Data
 
