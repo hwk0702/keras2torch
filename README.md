@@ -17,18 +17,18 @@ Original github address: https://github.com/keras-team/keras-io
 
 수료생(Previous members)
 
-|                 Hyeongwon               |                 Subin                |                   Yonggi                   |
-| :------------------------------------------: | :-----------------------------------------: | :----------------------------------------: |
-| <img src="https://avatars.githubusercontent.com/u/31944451?s=400&u=5ee1388c2507ddddb5298eb608393032b4aad489&v=4" width=150px> | <img src="https://github.com/yukyunglee/Transformer_Survey_Study/blob/3254384e154ff2a3232a9fe723da36b1ceb92705/img/sb.png?raw=true" width=150px> | <img src="https://user-images.githubusercontent.com/68496320/168459826-6d01c007-d545-45d5-9601-cbc493971540.png" width=150px> |
-|                   **[Github](https://github.com/hwk0702)**                   |                   **[Github](https://github.com/suubkiim)**                   |                   **[Github](https://github.com/animilux)**                   |
+|                 Hyeongwon               |                 Subin                |                   Yonggi                   |                   Yookyung                   |
+| :------------------------------------------: | :-----------------------------------------: | :----------------------------------------: | :----------------------------------------: |
+| <img src="https://avatars.githubusercontent.com/u/31944451?s=400&u=5ee1388c2507ddddb5298eb608393032b4aad489&v=4" width=150px> | <img src="https://github.com/yukyunglee/Transformer_Survey_Study/blob/3254384e154ff2a3232a9fe723da36b1ceb92705/img/sb.png?raw=true" width=150px> | <img src="https://user-images.githubusercontent.com/68496320/168459826-6d01c007-d545-45d5-9601-cbc493971540.png" width=150px> | <img src="https://user-images.githubusercontent.com/68496320/174434997-38cd9083-b359-4b25-9696-9369596335a3.png" width=150px> |
+|                   **[Github](https://github.com/hwk0702)**                   |                   **[Github](https://github.com/suubkiim)**                   |                   **[Github](https://github.com/animilux)**                   |                   **[Github](https://github.com/yookyungkho)**                   
 
 
 참여자(Current members)
 
-|              Jeongsub               |                   Jaehyuk                   |                   Yookyung                   |                   Sunwoo                   |                   Suzie                   |
-| :------------------------------------------: | :-----------------------------------------: | :----------------------------------------: | :---------------------------------------------: | :---------------------------------------------: |
-| <img src="https://avatars.githubusercontent.com/u/63832233?v=4" width=150px> | <img src="https://github.com/yukyunglee/Transformer_Survey_Study/blob/3254384e154ff2a3232a9fe723da36b1ceb92705/img/jh.png?raw=true" width=150px> | <img src="https://user-images.githubusercontent.com/68496320/174434997-38cd9083-b359-4b25-9696-9369596335a3.png" width=150px> | <img src="https://user-images.githubusercontent.com/68496320/168459726-ac6ce3dc-eeb8-485c-a870-10af89efe102.png" width=150px> | <img src="https://user-images.githubusercontent.com/68496320/174434838-8c470e18-b51f-4551-ae68-4e8032664555.png" width=150px> |
-|               **[Github](https://github.com/jskim0406)**               |                   **[Github](https://github.com/TooTouch)**                   |                   **[Github](https://github.com/yookyungkho)**                   |                   **[Github](https://github.com/SunwooKimstar)**                   |                   **[Github](https://github.com/ohsuz)**                   |
+|              Jeongsub               |                   Jaehyuk                   |                   Sunwoo                   |                   Suzie                   |
+| :------------------------------------------: | :-----------------------------------------: | :---------------------------------------------: | :---------------------------------------------: |
+| <img src="https://avatars.githubusercontent.com/u/63832233?v=4" width=150px> | <img src="https://github.com/yukyunglee/Transformer_Survey_Study/blob/3254384e154ff2a3232a9fe723da36b1ceb92705/img/jh.png?raw=true" width=150px> | <img src="https://user-images.githubusercontent.com/68496320/168459726-ac6ce3dc-eeb8-485c-a870-10af89efe102.png" width=150px> | <img src="https://user-images.githubusercontent.com/68496320/174434838-8c470e18-b51f-4551-ae68-4e8032664555.png" width=150px> |
+|               **[Github](https://github.com/jskim0406)**               |                   **[Github](https://github.com/TooTouch)**                   |                   **[Github](https://github.com/SunwooKimstar)**                   |                   **[Github](https://github.com/ohsuz)**                   |
 
 
 ---
